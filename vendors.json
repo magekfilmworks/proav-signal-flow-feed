@@ -3,7 +3,12 @@
   "vendors": [
     {
       "key": "barco",
-      "items": []
+      "items": [],
+      "label": "Barco",
+      "match": "Barco",
+      "newsroom": [
+        "https://www.barco.com/en/news"
+      ]
     },
     {
       "key": "analogway",
@@ -91,6 +96,11 @@
             }
           ]
         }
+      ],
+      "label": "Analog Way",
+      "match": "analog ?way|aquilon|livepremier",
+      "newsroom": [
+        "https://www.analogway.com/news-center"
       ]
     },
     {
@@ -134,6 +144,11 @@
             }
           ]
         }
+      ],
+      "label": "PixelHue",
+      "match": "pixel ?hue|\\b(q8|p80|p20)\\b",
+      "newsroom": [
+        "https://pixelhue.com"
       ]
     }
   ]
