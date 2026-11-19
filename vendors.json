@@ -62,6 +62,7 @@
       "label": "Barco",
       "match": "Barco",
       "newsroom": [
+        "https://www.barco.com/en/news/news-insights?productCategory=barco-dxp:product/product-category/projection,barco-dxp:product/product-category/image-processing,barco-dxp:product/product-category/video-walls",
         "https://www.barco.com/en/news/news-insights/live-events"
       ]
     },
