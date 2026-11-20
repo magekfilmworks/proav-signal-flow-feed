@@ -64,6 +64,62 @@
       "newsroom": [
         "https://www.barco.com/en/news/news-insights?productCategory=barco-dxp:product/product-category/projection,barco-dxp:product/product-category/image-processing,barco-dxp:product/product-category/video-walls",
         "https://www.barco.com/en/news/news-insights/live-events"
+      ],
+      "curated": [
+        {
+          "id": "barco-encore3-update-v10-0-2",
+          "beat": "switching",
+          "title": "Encore3 update: building together, growing stronger",
+          "vendor": "Barco",
+          "brief": "From Barco's news portal. Open the article for the details.",
+          "sources": [
+            {
+              "label": "Barco",
+              "url": "https://www.barco.com/en/news/news-insights/live-events/encore3-toolsetv1002"
+            }
+          ],
+          "pinned": true,
+          "status_label": "Pinned"
+        },
+        {
+          "id": "barco-encore3-10-2",
+          "beat": "switching",
+          "title": "Faster builds, smarter workflows, bigger shows: the Encore3 10.2 software version",
+          "vendor": "Barco",
+          "brief": "From Barco's news portal. Open the article for the details.",
+          "sources": [
+            {
+              "label": "Barco",
+              "url": "https://www.barco.com/en/news/news-insights/live-events/encore3-toolsetv102"
+            }
+          ]
+        },
+        {
+          "id": "barco-qdx-rentex",
+          "beat": "field",
+          "title": "A QDX boost for the Rentex projection fleet",
+          "vendor": "Barco",
+          "brief": "From Barco's news portal. Open the article for the details.",
+          "sources": [
+            {
+              "label": "Barco",
+              "url": "https://www.barco.com/en/news/news-insights/live-events/qdx-rentex"
+            }
+          ]
+        },
+        {
+          "id": "barco-qdx-fuse",
+          "beat": "field",
+          "title": "Fuse expands its creative toolkit with 45 Barco QDX projectors",
+          "vendor": "Barco",
+          "brief": "From Barco's news portal. Open the article for the details.",
+          "sources": [
+            {
+              "label": "Barco",
+              "url": "https://www.barco.com/en/inspiration/news-insights/live-events/qdx-fuse"
+            }
+          ]
+        }
       ]
     },
     {
