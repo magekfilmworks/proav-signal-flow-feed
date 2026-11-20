@@ -262,6 +262,67 @@
       "newsroom": [
         "https://pixelhue.com"
       ]
+    },
+    {
+      "key": "smpte",
+      "label": "SMPTE ST 2110",
+      "match": "smpte|st[ -]?2110",
+      "newsroom": [
+        "https://www.smpte.org/blog/tag/st-2110"
+      ],
+      "items": [
+        {
+          "id": "smpte-content-provenance-authenticity-ai",
+          "beat": "field",
+          "title": "SMPTE Identifies Key Requirements for Content Provenance and Authenticity in the Age of AI",
+          "vendor": "SMPTE",
+          "date": "2026-11-19",
+          "when": "Nov 19, 2026",
+          "brief": "SMPTE shares survey findings and recommendations for trusted, interoperable media workflows as AI raises questions about content authenticity.",
+          "status_label": "SMPTE blog",
+          "sources": [
+            {
+              "label": "SMPTE",
+              "url": "https://www.smpte.org/blog/smpte-identifies-key-requirements-for-content-provenance-and-authenticity-in-the-age-of-ai"
+            }
+          ]
+        },
+        {
+          "id": "smpte-bh-riedel-mts-solutions-hub",
+          "beat": "cloud",
+          "title": "The Studio B&H and Riedel Communications Power the SMPTE MTS Solutions Hub with Advanced Video Infrastructure and Communications Technology",
+          "vendor": "SMPTE",
+          "date": "2026-11-12",
+          "when": "Nov 12, 2026",
+          "brief": "B&H and Riedel built a live-broadcast infrastructure at the SMPTE MTS Solutions Hub that showcases ST 2110 and IP networking.",
+          "status_label": "SMPTE blog",
+          "sources": [
+            {
+              "label": "SMPTE",
+              "url": "https://www.smpte.org/blog/the-studio-bh-and-riedel-communications-power-the-smpte-mts-solutions-hub-with-advanced-video-infrastructure-and-communications-technology"
+            }
+          ]
+        }
+      ],
+      "curated": [
+        {
+          "id": "smpte-content-provenance-authenticity-ai",
+          "beat": "field",
+          "title": "SMPTE Identifies Key Requirements for Content Provenance and Authenticity in the Age of AI",
+          "vendor": "SMPTE",
+          "date": "2026-11-19",
+          "when": "Nov 19, 2026",
+          "brief": "SMPTE shares survey findings and recommendations for trusted, interoperable media workflows as AI raises questions about content authenticity.",
+          "status_label": "Pinned",
+          "sources": [
+            {
+              "label": "SMPTE",
+              "url": "https://www.smpte.org/blog/smpte-identifies-key-requirements-for-content-provenance-and-authenticity-in-the-age-of-ai"
+            }
+          ],
+          "pinned": true
+        }
+      ]
     }
   ]
 }
