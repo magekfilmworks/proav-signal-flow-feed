@@ -489,6 +489,26 @@
             }
           ]
         }
+      ],
+      "curated": [
+        {
+          "id": "panasonic-kairos-firmware-2-1-6",
+          "beat": "switching",
+          "title": "KAIROS firmware ver. 2.1.6",
+          "vendor": "Panasonic Connect",
+          "date": "2026-10-20",
+          "when": "Oct 20, 2026",
+          "brief": "Firmware for the KAIROS IT/IP platform was updated to ver. 2.1.6.",
+          "status_label": "Pinned",
+          "sources": [
+            {
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/whatsnew/"
+            }
+          ],
+          "what": "Panasonic's What's New list shows the KAIROS firmware updated to ver. 2.1.6. The change notes sit behind Panasonic's support login, so what changed is not stated here.",
+          "pinned": true
+        }
       ]
     }
   ]
