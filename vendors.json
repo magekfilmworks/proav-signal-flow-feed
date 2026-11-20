@@ -482,12 +482,12 @@
           "what": "Panasonic announced the AW-UE200 series (AW-UE200W and AW-UE200K) as what it calls the world's first PTZ cameras with a global shutter MOS sensor: a 1.2-inch 5K sensor with 5K oversampling for 4K output, a 22x optical zoom (f=22.5–500 mm, 35 mm equivalent) with an 80° horizontal angle at wide, and pan/tilt speeds up to 400 deg/s. HD high-speed shooting is 120 fps and 180 fps, with 180 fps needing a future update. The AW-UE210 models add SMPTE ST 2110 with uncompressed 4K output and Dante audio, with redundant connections; JPEG XS low-latency transmission needs a future firmware update. The AW-UE200 series is scheduled for February 2027 and the roll-capable AW-UER200 series for Q2 CY2027. Price is not stated.",
           "sources": [
             {
-              "label": "Panasonic press release",
-              "url": "https://news.panasonic.com/global/press/en260902-4"
-            },
-            {
               "label": "Panasonic Connect",
               "url": "https://pro-av.panasonic.net/en/products/aw-ue200-210/"
+            },
+            {
+              "label": "Panasonic press release",
+              "url": "https://news.panasonic.com/global/press/en260902-4"
             }
           ]
         }
@@ -524,12 +524,12 @@
           "what": "Panasonic announced the AW-UE200 series (AW-UE200W and AW-UE200K) as what it calls the world's first PTZ cameras with a global shutter MOS sensor: a 1.2-inch 5K sensor with 5K oversampling for 4K output, a 22x optical zoom (f=22.5–500 mm, 35 mm equivalent) with an 80° horizontal angle at wide, and pan/tilt speeds up to 400 deg/s. HD high-speed shooting is 120 fps and 180 fps, with 180 fps needing a future update. The AW-UE210 models add SMPTE ST 2110 with uncompressed 4K output and Dante audio, with redundant connections; JPEG XS low-latency transmission needs a future firmware update. The AW-UE200 series is scheduled for February 2027 and the roll-capable AW-UER200 series for Q2 CY2027. Price is not stated.",
           "sources": [
             {
-              "label": "Panasonic press release",
-              "url": "https://news.panasonic.com/global/press/en260902-4"
-            },
-            {
               "label": "Panasonic Connect",
               "url": "https://pro-av.panasonic.net/en/products/aw-ue200-210/"
+            },
+            {
+              "label": "Panasonic press release",
+              "url": "https://news.panasonic.com/global/press/en260902-4"
             }
           ],
           "pinned": true
