@@ -436,26 +436,6 @@
           "what": "Panasonic's What's New list shows the KAIROS firmware updated to ver. 2.1.6. The change notes sit behind Panasonic's support login, so what changed is not stated here."
         },
         {
-          "id": "panasonic-global-shutter-ptz",
-          "beat": "field",
-          "title": "PTZ cameras with a global shutter MOS sensor",
-          "vendor": "Panasonic Connect",
-          "date": "2026-09-02",
-          "when": "Sep 2, 2026",
-          "brief": "Panasonic announced PTZ cameras featuring a global shutter MOS sensor, which it calls a world first.",
-          "status_label": "Press release",
-          "sources": [
-            {
-              "label": "Panasonic press release",
-              "url": "https://news.panasonic.com/global/press/en260902-4"
-            },
-            {
-              "label": "Panasonic Connect",
-              "url": "https://pro-av.panasonic.net/en/whatsnew/"
-            }
-          ]
-        },
-        {
           "id": "panasonic-aw-ue5",
           "beat": "field",
           "title": "AW-UE5W/K 4K Integrated Camera",
@@ -488,6 +468,28 @@
               "url": "https://pro-av.panasonic.net/en/products/aw-rp200gj/"
             }
           ]
+        },
+        {
+          "id": "panasonic-aw-ue200k",
+          "beat": "field",
+          "title": "AW-UE200K 4K PTZ camera with a global shutter MOS sensor",
+          "vendor": "Panasonic Connect",
+          "date": "2026-09-02",
+          "when": "Sep 2, 2026",
+          "brief": "4K PTZ with a 1.2-inch global shutter 5K sensor and 22x zoom; AW-UE210 adds ST 2110 and Dante.",
+          "status_label": "Feb 2027",
+          "spec": "1.2-inch 5K global shutter · 4K out · 22x optical · 80° wide · HD 120/180 fps",
+          "what": "Panasonic announced the AW-UE200 series (AW-UE200W and AW-UE200K) as what it calls the world's first PTZ cameras with a global shutter MOS sensor: a 1.2-inch 5K sensor with 5K oversampling for 4K output, a 22x optical zoom (f=22.5–500 mm, 35 mm equivalent) with an 80° horizontal angle at wide, and pan/tilt speeds up to 400 deg/s. HD high-speed shooting is 120 fps and 180 fps, with 180 fps needing a future update. The AW-UE210 models add SMPTE ST 2110 with uncompressed 4K output and Dante audio, with redundant connections; JPEG XS low-latency transmission needs a future firmware update. The AW-UE200 series is scheduled for February 2027 and the roll-capable AW-UER200 series for Q2 CY2027. Price is not stated.",
+          "sources": [
+            {
+              "label": "Panasonic press release",
+              "url": "https://news.panasonic.com/global/press/en260902-4"
+            },
+            {
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/products/aw-ue200-210/"
+            }
+          ]
         }
       ],
       "curated": [
@@ -507,6 +509,29 @@
             }
           ],
           "what": "Panasonic's What's New list shows the KAIROS firmware updated to ver. 2.1.6. The change notes sit behind Panasonic's support login, so what changed is not stated here.",
+          "pinned": true
+        },
+        {
+          "id": "panasonic-aw-ue200k",
+          "beat": "field",
+          "title": "AW-UE200K 4K PTZ camera with a global shutter MOS sensor",
+          "vendor": "Panasonic Connect",
+          "date": "2026-09-02",
+          "when": "Sep 2, 2026",
+          "brief": "4K PTZ with a 1.2-inch global shutter 5K sensor and 22x zoom; AW-UE210 adds ST 2110 and Dante.",
+          "status_label": "Pinned",
+          "spec": "1.2-inch 5K global shutter · 4K out · 22x optical · 80° wide · HD 120/180 fps",
+          "what": "Panasonic announced the AW-UE200 series (AW-UE200W and AW-UE200K) as what it calls the world's first PTZ cameras with a global shutter MOS sensor: a 1.2-inch 5K sensor with 5K oversampling for 4K output, a 22x optical zoom (f=22.5–500 mm, 35 mm equivalent) with an 80° horizontal angle at wide, and pan/tilt speeds up to 400 deg/s. HD high-speed shooting is 120 fps and 180 fps, with 180 fps needing a future update. The AW-UE210 models add SMPTE ST 2110 with uncompressed 4K output and Dante audio, with redundant connections; JPEG XS low-latency transmission needs a future firmware update. The AW-UE200 series is scheduled for February 2027 and the roll-capable AW-UER200 series for Q2 CY2027. Price is not stated.",
+          "sources": [
+            {
+              "label": "Panasonic press release",
+              "url": "https://news.panasonic.com/global/press/en260902-4"
+            },
+            {
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/products/aw-ue200-210/"
+            }
+          ],
           "pinned": true
         }
       ]
