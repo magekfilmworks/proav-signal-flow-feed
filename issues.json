@@ -4,44 +4,44 @@
   {
    "kind": "daily",
    "date": "2026-11-21",
-   "headline": "Quiet day: sources unreadable this run",
-   "topline": "No consequential product, firmware or standards news could be verified for Nov 19–21; this run could not open any source pages, so only dated headlines from Sports Video Group are listed.",
+   "headline": "Quiet day: nothing new from the vendors",
+   "topline": "No new product, firmware or standards news dated Nov 19–21 turned up across the vendor newsrooms, Panasonic, SMPTE and AWS; the only dated items are two rights stories from Sports Video Group.",
    "items": [
     {
-     "beat": "field",
-     "brief": "F1 Academy's U.S. media rights move to Apple TV beginning in 2027.",
      "id": "apple-tv-f1-academy-us-2027",
+     "beat": "field",
+     "title": "Apple TV becomes U.S. home of F1 Academy from 2027",
+     "vendor": "Apple, F1 Academy",
+     "brief": "F1 Academy's U.S. media rights move to Apple TV beginning in 2027.",
+     "status": "later",
+     "status_label": "From 2027",
+     "what": "Sports Video Group reported on Nov 20 that Apple TV becomes the U.S. home of F1 Academy beginning in 2027. Details beyond the headline could not be read this run.",
+     "why": "Another motorsport property moving to a streamer; production and contribution model for the U.S. feed is not yet known.",
+     "watch": "Whether Apple uses the world feed or adds U.S.-specific production.",
      "sources": [
       {
        "label": "Sports Video Group",
        "url": "https://www.sportsvideo.org/2026/11/20/apple-tv-becomes-u-s-home-of-f1-academy-beginning-in-2027/"
       }
-     ],
-     "status": "later",
-     "status_label": "From 2027",
-     "title": "Apple TV becomes U.S. home of F1 Academy from 2027",
-     "vendor": "Apple, F1 Academy",
-     "watch": "Whether Apple uses the world feed or adds U.S.-specific production.",
-     "what": "Sports Video Group reported on Nov 20 that Apple TV becomes the U.S. home of F1 Academy beginning in 2027. Details beyond the headline could not be read this run.",
-     "why": "Another motorsport property moving to a streamer; production and contribution model for the U.S. feed is not yet known."
+     ]
     },
     {
-     "beat": "field",
-     "brief": "Two-year rights extension covers TST 2027 and 2028.",
      "id": "nbc-sports-tst-2027-2028",
+     "beat": "field",
+     "title": "NBC Sports extends The Soccer Tournament for 2027 and 2028",
+     "vendor": "NBC Sports, The Soccer Tournament",
+     "brief": "Two-year rights extension covers TST 2027 and 2028.",
+     "status": "field",
+     "status_label": "Rights extended",
+     "what": "Sports Video Group reported on Nov 20 that NBC Sports and The Soccer Tournament agreed a two-year extension for TST 2027 and 2028. Production details could not be read this run.",
+     "why": "Multi-year renewals lock in summer production capacity and crew planning for those windows.",
+     "watch": "Production partner and venue announcements for TST 2027.",
      "sources": [
       {
        "label": "Sports Video Group",
        "url": "https://www.sportsvideo.org/2026/11/20/nbc-sports-and-the-soccer-tournament-agree-to-two-year-extension-for-tst-2027-and-2028/"
       }
-     ],
-     "status": "field",
-     "status_label": "Rights extended",
-     "title": "NBC Sports extends The Soccer Tournament for 2027 and 2028",
-     "vendor": "NBC Sports, The Soccer Tournament",
-     "watch": "Production partner and venue announcements for TST 2027.",
-     "what": "Sports Video Group reported on Nov 20 that NBC Sports and The Soccer Tournament agreed a two-year extension for TST 2027 and 2028. Production details could not be read this run.",
-     "why": "Multi-year renewals lock in summer production capacity and crew planning for those windows."
+     ]
     }
    ],
    "watch": [
@@ -106,10 +106,11 @@
     }
    ],
    "open_questions": [
-    "This run could not open any web page: every page fetch was refused because its permission request went unanswered (unattended run). Web search returned titles and URLs only, so no specs, prices or firmware details could be verified.",
-    "Barco portal (filtered view, Live Events page, ENCORE3 article) could not be read; no Barco items.",
-    "Not checked for in-window news: Panasonic Pro AV What's New, SMPTE ST 2110 blog, AWS Media Services blog, Blackmagic Design news page, release probes for Nov 19–21 and release-notes summary, Analog Way, PixelHue and NovaStar newsrooms.",
-    "Coming up classes are carried forward from the Nov 20 entry; Evolve Academy and Analog Way Academy pages could not be re-read, so seat status and dates are unverified today (Evolve years remain inferred)."
+    "Barco portal (filtered view and Live Events page) returned client_error again; no Barco items. Barco's ENCORE3 article page was not retried.",
+    "Blackmagic Design: the news page returned only menus and release probes for Nov 19–21 had no content (20261119-01 loaded as a menu-only page, the others errored); no release dates could be confirmed. Release-notes summary shows ATEM Switchers 11.0.1, HyperDeck 9.0.2, Converters 12.4.2, Videohub 11.0.1, Desktop Video 16.5, DaVinci Resolve 21.2 and Blackmagic Camera 10.3.4, but without dates, so none are reported.",
+    "No in-window news from Analog Way (newest entries are event pages for LDI and ISE 2027 and a Nov 6 customer story), PixelHue (newest press release Aug 14), NovaStar (news page shows no 2026 entries), Panasonic (Nov 19 entry is an FAQ addition; other newest entries are Nov 17 and already covered), SMPTE ST 2110 blog (newest post Nov 19, already covered) or the AWS Media Services blog (newest post Mar 2, 2026).",
+    "Evolve Academy: Encore3 Certified Specialist and PixelHue Level 2 show out of stock with no dates, so they are left out. Millumin shows 2027; other Evolve years are inferred from session order.",
+    "Analog Way Academy Buford: Dec 7–11, 2026 Level 3 is the only upcoming Aquilon session found; the listing shows both '1 seats left' and 'Full session', and the session page shows no price amount (consult sales), so seat status is unconfirmed."
    ]
   },
   {
