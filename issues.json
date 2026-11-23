@@ -1,6 +1,100 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "issues": [
+    {
+      "kind": "weekly",
+      "date": "2026-11-23",
+      "week_start": "2026-11-16",
+      "week_end": "2026-11-22",
+      "headline": "Quiet week: no new vendor news confirmed",
+      "topline": "Nothing new could be confirmed from the vendor, Barco, Blackmagic, Panasonic, SMPTE or AWS pages this run because page fetches were refused; web search surfaced only a follow-up on Riot's remote-production playbook.",
+      "items": [
+        {
+          "beat": "field",
+          "brief": "SVG details Riot's next-gen remote production: Contribution 2.0, vertical video and IRL streaming.",
+          "id": "svg-riot-remote-production-playbook-2026-11-16",
+          "sources": [
+            {
+              "label": "Sports Video Group",
+              "url": "https://sportsvideo.org/2026/11/16/inside-riot-games-next-gen-remote-production-playbook-from-contribution-2-0-to-vertical-video-and-irl-streaming"
+            }
+          ],
+          "status": "field",
+          "status_label": "Deployment story",
+          "title": "Riot Games remote-production playbook",
+          "vendor": "Riot Games; Sports Video Group",
+          "watch": "Read the full SVG article for contribution specs before citing numbers.",
+          "what": "Sports Video Group published a Nov 16 piece on Riot Games' remote production approach, covering Contribution 2.0, vertical video and IRL streaming. Only the headline was readable this run; the Worlds Grand Final Barclays Center story was covered Nov 17.",
+          "why": "A large esports producer's remote-first workflow is a reference point for venue-to-cloud contribution design."
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-11-30",
+          "end": "2026-12-04",
+          "name": "AWS re:Invent 2026",
+          "note": "Watch for AWS Elemental / M&E live-cloud announcements ahead of the 2027 sports season.",
+          "place": "Las Vegas (Venetian, Caesars Forum, MGM Grand, Wynn)"
+        },
+        {
+          "date": "2026-12-04",
+          "end": "2026-12-08",
+          "name": "LDI 2026 (incl. ROE Academy Dec 4–5)",
+          "note": "ROE booth 2203 (Graphite Curve, new rental tile); Analog Way 4430; Yes Tech 2622. Watch for more Barco LED Alliance members.",
+          "place": "Las Vegas"
+        },
+        {
+          "date": "2026-12-07",
+          "end": "2026-12-11",
+          "kind": "class",
+          "name": "Class: Aquilon Certified Operator Training, Level 3",
+          "note": "5-day in-person certification (Levels 1+2+3), instructor Carl Houde. Requires the online course \"Aquilon from A to Z\". Price: contact Analog Way sales. Seat status unclear: the listing shows both \"1 seat left\" and \"Full session\".",
+          "place": "Buford, GA · Analog Way Academy",
+          "url": "https://academy.analogway.com/in-person-certifications/nala---2026-12-07---livepremier-tm-presentation-systems---certification---level-3---u-s-a"
+        },
+        {
+          "date": "2026-12-07",
+          "end": "2026-12-07",
+          "kind": "class",
+          "name": "Class: PixelHue Remote Training",
+          "note": "4-hour beginner course with certification, $300. The exam is required before the in-person Advanced course. Next date Jan 11.",
+          "place": "Remote, 1–5 pm ET · Evolve Academy",
+          "url": "https://evolveacademy.live/product/pixelhue-remote-training/"
+        },
+        {
+          "date": "2027-01-13",
+          "end": "2027-01-13",
+          "kind": "class",
+          "name": "Class: Millumin Operator Fundamentals Workshop",
+          "note": "1-day in-person workshop, $500, no certification.",
+          "place": "Las Vegas · Evolve Academy",
+          "url": "https://evolveacademy.live/product/millumin/"
+        },
+        {
+          "date": "2027-01-21",
+          "end": "2027-01-22",
+          "kind": "class",
+          "name": "Class: Analog Way LivePremier Level 1",
+          "note": "2-day in-person course, $1,200. Recommended: LivePremier from A to Z online course. Next date Apr 20–21.",
+          "place": "Orlando · Evolve Academy",
+          "url": "https://evolveacademy.live/product/live-premier-level-1/"
+        },
+        {
+          "date": "2027-02-11",
+          "end": "2027-02-13",
+          "kind": "class",
+          "name": "Class: Pixera Operator Training",
+          "note": "3-day in-person course with Pixera Certified Operator test, $1,250. Next date Jun 19–21.",
+          "place": "Las Vegas · Evolve Academy",
+          "url": "https://evolveacademy.live/product/pixera/"
+        }
+      ],
+      "open_questions": [
+        "Every WebFetch this run failed (permission request unanswered): Barco portal, Blackmagic news/release pages and release notes, Panasonic What's New, SMPTE ST 2110 blog, AWS Media Services blog, Analog Way / PixelHue / NovaStar newsrooms, Evolve Academy and Analog Way Academy pages. Nothing was confirmed for those sources; the Barco portal could not be read.",
+        "Coming up list is carried forward unchanged from Nov 22 (no class has started); session changes and seat status were not re-checked, and Evolve class years remain inferred.",
+        "Web search found no dated in-window news for Barco, Analog Way, PixelHue or NovaStar."
+      ]
+    },
     {
       "kind": "daily",
       "date": "2026-11-22",
@@ -5745,196 +5839,6 @@
         "Grass Valley AVORA: no U.S. price or ship date after NAB NY",
         "EVS XT-S: channel counts, ST 2110 support and price still unpublished",
         "LED processors: no new Brompton, Megapixel, NovaStar or Analog Way firmware reported this week"
-      ]
-    },
-    {
-      "kind": "daily",
-      "date": "2026-10-24",
-      "headline": "World Series tech and SMPTE heads east",
-      "topline": "FOX opened the World Series in Milwaukee with three new 4K Nucleus cameras and an 8K Nucleus for AR alongside 27 Sony 5500-series cameras. SMPTE also confirmed its Summit moves to New York beside NAB Show NY from 2027.",
-      "items": [
-        {
-          "beat": "field",
-          "brief": "FOX adds three 4K Nucleus cameras and an 8K Nucleus for AR.",
-          "id": "fox-world-series-2026-nucleus",
-          "sources": [
-            {
-              "label": "TV Tech",
-              "url": "https://www.tvtechnology.com/production/sports-production/fox-sports-to-add-4k-8k-nucleus-cameras-to-world-series-production-tech-lineup"
-            },
-            {
-              "label": "MLB.com",
-              "url": "https://www.mlb.com/press-release/press-release-broadcast-schedule-announced-for-the-2026-world-series-presented-by-capital-one"
-            }
-          ],
-          "spec": "27 Sony 5500-series; 11 cameras at 6x+; 8 Proton POVs; 2 drones; 18 AR/data feeds",
-          "status": "field",
-          "status_label": "Game 1 Oct 23",
-          "title": "2026 World Series production",
-          "vendor": "FOX Sports, Sony, Proton",
-          "watch": "Whether FOX or SVG publishes the replay, truck and HDR details, which this report leaves out.",
-          "what": "Game 1 (Brewers vs. Rays) aired Oct 23 from American Family Field. FOX's complement is 27 Sony 5500-series cameras (16 hard, 6 handheld, 5 studio), 11 high-speed cameras at 6x or faster, eight robotic heads, eight Proton POV cams, two drones and an RF Steadicam, plus three new 4K Nucleus cameras and an 8K Nucleus used for AR.",
-          "why": "It's a current reference for a tier-one baseball camera plot. The 8K-for-AR camera and 18 MLB/Statcast feeds show how much of the show now depends on data and tracking infrastructure, not just the camera count."
-        },
-        {
-          "beat": "field",
-          "brief": "From 2027 the Summit runs Sept. 28-30 at Javits, overlapping NAB Show NY.",
-          "id": "smpte-summit-nab-ny-2027",
-          "sources": [
-            {
-              "label": "TV Tech",
-              "url": "https://www.tvtechnology.com/events/smpte-to-hold-its-annual-tech-summit-in-conjunction-with-nab-show-new-york-starting-in-2027"
-            }
-          ],
-          "status": "later",
-          "status_label": "Starts 2027",
-          "title": "SMPTE Media Technology Summit moves to NAB Show New York",
-          "vendor": "SMPTE, NAB",
-          "watch": "The 2027 call for papers, and whether NAB NY grows its floor or adds days to fit the overlap.",
-          "what": "SMPTE will hold its annual Summit together with NAB Show New York starting in 2027: Sept. 28-30 at the Javits Center, overlapping the Sept. 29-30 show floor. It drops from four days to three. It will be SMPTE's first East Coast summit since 2005. The 2026 Summit stays in Pasadena, Nov. 16-19.",
-          "why": "The standards papers (ST 2110, MXL, IPMX) and the show floor end up in one trip, one week. That makes travel and budget planning simpler for East Coast engineering teams."
-        },
-        {
-          "beat": "cloud",
-          "brief": "NETGEAR will now scope and sell NDI workflow design, deployment and tuning services.",
-          "id": "netgear-ndi-professional-services",
-          "sources": [
-            {
-              "label": "AVNation",
-              "url": "https://www.avnation.tv/2026/10/23/netgear-enterprise-expands-professional-services-to-ecosystem-partners-starting-with-ndi/"
-            }
-          ],
-          "status": "ship",
-          "status_label": "Available now",
-          "title": "Professional Services expanded to AV-over-IP, starting with NDI",
-          "vendor": "NETGEAR, NDI",
-          "watch": "Which partner protocol comes next. NETGEAR says it stays protocol-neutral, so Dante, IPMX or ST 2110 are all possible.",
-          "what": "NETGEAR extended its Professional Services program from network design to AV-over-IP workflows, with NDI as the first ecosystem partner. Engagements are project-based, separate from Premium Support tiers, and sold through NETGEAR's two-tier channel. No pricing was disclosed, and no new products were announced.",
-          "why": "NDI systems usually fail at the network: multicast, QoS and switch profiles. One vendor taking responsibility for both the switch config and the NDI design can reduce finger-pointing on integrator-built venue systems."
-        },
-        {
-          "beat": "led",
-          "brief": "Showtime Sound tours Absen PL3.9 Pro across 33 North American amphitheater stops.",
-          "id": "absen-pl39-pro-311-dirty-heads",
-          "sources": [
-            {
-              "label": "AV Network",
-              "url": "https://www.avnetwork.com/installations/sports-entertainment/watch-this-absen-hits-the-road-with-311-and-dirty-heads"
-            }
-          ],
-          "spec": "3.9mm pitch; 0.1-5,000 nits; reinforced cabinets",
-          "status": "field",
-          "status_label": "On tour",
-          "title": "PL3.9 Pro on the 311 / Dirty Heads tour",
-          "vendor": "Absen, Showtime Sound",
-          "watch": "Fall-tour LED spec trends heading into LDI (Dec. 6-8).",
-          "what": "Showtime Sound supplied and supports Absen PL3.9 Pro LED for the 'So Glad You Made It' co-headline tour: 33 amphitheater and outdoor dates. The wall is modular, so it scales down for narrower stages. The article does not name the processing.",
-          "why": "It's a real-world data point for a 5,000-nit, 3.9mm rental product in outdoor summer-shed touring. The 0.1-nit low end also matters for IMAG at night."
-        },
-        {
-          "beat": "field",
-          "brief": "Panasonic shows PDAF autofocus on the AK-UCX100 4K studio camera in Mumbai.",
-          "id": "panasonic-ak-ucx100-autofocus-india",
-          "sources": [
-            {
-              "label": "NCN Online",
-              "url": "https://www.ncnonline.net/panasonic-launches-worlds-first-autofocus-capability-for-4k-studio-cameras-in-india-alongside-new-4k-multi-purpose-camera-at-broadcast-india-2026/"
-            }
-          ],
-          "status": "announced",
-          "status_label": "Regional launch",
-          "title": "AK-UCX100 autofocus and AK-UBX100 at Broadcast India",
-          "vendor": "Panasonic",
-          "watch": "The firmware version and availability outside India.",
-          "what": "At Broadcast India 2026 (Oct 22-24, Mumbai), Panasonic launched phase-detection autofocus for the AK-UCX100 4K studio camera, which it calls a first for a 4K studio camera. It has adjustable focus areas, manual fine-tune and focus-assist indicators. Panasonic also showed the AK-UBX100 4K multi-purpose camera. No firmware version, price or ship date was given.",
-          "why": "Autofocus on studio-chain cameras lets small news and worship rooms run more cameras per operator, often alongside PTZs."
-        }
-      ],
-      "watch": [
-        {
-          "date": "2026-10-23",
-          "end": "2026-10-25",
-          "name": "F1 U.S. Grand Prix",
-          "note": "Race weekend starts today. Apple TV carries Dolby Vision plus Dolby Atmos for the first time at this race.",
-          "place": "COTA, Austin"
-        },
-        {
-          "date": "2026-10-24",
-          "end": "2026-10-24",
-          "name": "WNBA Finals Game 4 on NBC",
-          "note": "NBC's second Finals production, 1080p HDR on NEP IP units.",
-          "place": "State Farm Arena, Atlanta"
-        },
-        {
-          "date": "2026-10-25",
-          "end": "2026-10-25",
-          "name": "NFL Paris game (Steelers vs. Saints) on ESPN",
-          "note": "Final game of ESPN's October Europe run: NEP Ceres/Mercury on site, with EVS replay from Bristol.",
-          "place": "Stade de France, Paris"
-        },
-        {
-          "date": "2026-10-25",
-          "end": "2026-10-25",
-          "name": "NHL Heritage Classic",
-          "note": "Outdoor game with four in-rink stages; on SN, TVAS, TNT, truTV and HBO Max, 7 p.m. ET.",
-          "place": "Princess Auto Stadium, Winnipeg"
-        },
-        {
-          "date": "2026-10-26",
-          "end": "2026-10-26",
-          "name": "DirecTV 'Sport Equinox' multiview",
-          "note": "Four-game multiview of four major leagues playing at once; a consumer-side multiview test case.",
-          "place": "DirecTV"
-        },
-        {
-          "date": "2026-10-28",
-          "end": "2026-10-28",
-          "name": "ROE Visual Nashville hub open house",
-          "note": "First look at ROE's new repair, stock and training site.",
-          "place": "Nashville"
-        },
-        {
-          "date": "2026-11-04",
-          "end": "2026-11-05",
-          "name": "SATIS 2026",
-          "note": "Ross Video at Booth B15 with live production, automation and shared infrastructure.",
-          "place": "Docks de Paris, La Plaine Saint-Denis"
-        },
-        {
-          "date": "2026-11-06",
-          "end": "2026-11-08",
-          "name": "PBR Teams Championship",
-          "note": "Season finale for PBR's two-truck, 30-plus-camera Team Series production.",
-          "place": "T-Mobile Arena, Las Vegas"
-        },
-        {
-          "date": "2026-11-16",
-          "end": "2026-11-19",
-          "name": "SMPTE Media Technology Summit",
-          "note": "David Ross keynote. Expect ST 2110, MXL and cloud production papers. Last West Coast summit: from 2027 it moves to the Javits Center alongside NAB Show New York (Sept. 28-30, 2027).",
-          "place": "Pasadena"
-        },
-        {
-          "date": "2026-11-17",
-          "end": "2026-11-17",
-          "name": "EVS Q3 trading update",
-          "note": "Revised profitability guidance after the Oct 7 revenue cut.",
-          "place": "Online"
-        },
-        {
-          "date": "2026-12-06",
-          "end": "2026-12-08",
-          "name": "LDI 2026",
-          "note": "Analog Way booth 4430. Last LED/processing show of the year.",
-          "place": "Las Vegas"
-        }
-      ],
-      "open_questions": [
-        "Grass Valley AVORA: NAB NY closed Oct 22 with no U.S. price or ship date reported",
-        "EVS XT-S: channel counts, ST 2110 support and price still unpublished",
-        "Clear-Com Mentrix: price and ship date",
-        "FOX World Series: replay and HDR workflow not yet published",
-        "LED processors: still no new firmware reported this week"
       ]
     }
   ]
