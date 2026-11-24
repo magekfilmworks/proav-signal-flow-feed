@@ -1,6 +1,99 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "issues": [
+    {
+      "kind": "daily",
+      "date": "2026-11-24",
+      "headline": "Quiet day",
+      "topline": "Nothing new could be confirmed from vendor, trade or standards sources today; LDI (Dec 4-8) and AWS re:Invent (from Nov 30) are the next catalysts.",
+      "items": [
+        {
+          "beat": "led",
+          "brief": "Booth 2203 will launch Graphite Curve and show a new indoor/outdoor rental platform.",
+          "id": "roe-ldi-2026-countdown",
+          "sources": [
+            {
+              "label": "Lighting&Sound America",
+              "url": "http://www.lightingandsoundamerica.com/news/story.asp?ID=TO3LRR"
+            }
+          ],
+          "spec": "Graphite Curve: OneCurveLock, 20° concave to 20° convex",
+          "status": "later",
+          "status_label": "LDI Dec 4-8",
+          "title": "ROE Visual LDI 2026 lineup (context)",
+          "vendor": "ROE Visual",
+          "watch": "Pitch, pricing and shipping dates for the new rental platform, none of which have been stated.",
+          "what": "Previously reported: ROE's LDI booth (2203, 2,000 sq ft) will officially launch Graphite Curve and show a new rental platform pitched as a single inventory for indoor and outdoor use. No new information today.",
+          "why": "Curved-capable tile and a unified rental inventory affect LED spec and prep decisions for touring and rental shops; worth knowing before the show floor."
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-11-30",
+          "end": "2026-12-04",
+          "name": "AWS re:Invent 2026",
+          "note": "Watch for AWS Elemental / M&E live-cloud announcements ahead of the 2027 sports season.",
+          "place": "Las Vegas (Venetian, Caesars Forum, MGM Grand, Wynn)"
+        },
+        {
+          "date": "2026-12-04",
+          "end": "2026-12-08",
+          "name": "LDI 2026 (incl. ROE Academy Dec 4–5)",
+          "note": "ROE booth 2203 (Graphite Curve, new rental tile); Analog Way 4430; Yes Tech 2622. Watch for more Barco LED Alliance members.",
+          "place": "Las Vegas"
+        },
+        {
+          "date": "2026-12-07",
+          "end": "2026-12-11",
+          "kind": "class",
+          "name": "Class: Aquilon Certified Operator Training, Level 3",
+          "note": "5-day in-person certification (Levels 1+2+3), instructor Carl Houde. Requires the online course \"Aquilon from A to Z\". Price: contact Analog Way sales. Seat status unclear: the listing shows both \"1 seat left\" and \"Full session\".",
+          "place": "Buford, GA · Analog Way Academy",
+          "url": "https://academy.analogway.com/in-person-certifications/nala---2026-12-07---livepremier-tm-presentation-systems---certification---level-3---u-s-a"
+        },
+        {
+          "date": "2026-12-07",
+          "end": "2026-12-07",
+          "kind": "class",
+          "name": "Class: PixelHue Remote Training",
+          "note": "4-hour beginner course with certification, $300. The exam is required before the in-person Advanced course. Next date Jan 11.",
+          "place": "Remote, 1–5 pm ET · Evolve Academy",
+          "url": "https://evolveacademy.live/product/pixelhue-remote-training/"
+        },
+        {
+          "date": "2027-01-13",
+          "end": "2027-01-13",
+          "kind": "class",
+          "name": "Class: Millumin Operator Fundamentals Workshop",
+          "note": "1-day in-person workshop, $500, no certification.",
+          "place": "Las Vegas · Evolve Academy",
+          "url": "https://evolveacademy.live/product/millumin/"
+        },
+        {
+          "date": "2027-01-21",
+          "end": "2027-01-22",
+          "kind": "class",
+          "name": "Class: Analog Way LivePremier Level 1",
+          "note": "2-day in-person course, $1,200. Recommended: LivePremier from A to Z online course. Next date Apr 20–21.",
+          "place": "Orlando · Evolve Academy",
+          "url": "https://evolveacademy.live/product/live-premier-level-1/"
+        },
+        {
+          "date": "2027-02-11",
+          "end": "2027-02-13",
+          "kind": "class",
+          "name": "Class: Pixera Operator Training",
+          "note": "3-day in-person course with Pixera Certified Operator test, $1,250. Next date Jun 19–21.",
+          "place": "Las Vegas · Evolve Academy",
+          "url": "https://evolveacademy.live/product/pixera/"
+        }
+      ],
+      "open_questions": [
+        "Every WebFetch this run failed (permission request unanswered): Barco portal (could not be read), Blackmagic news/release notes, Panasonic What's New, SMPTE ST 2110 blog, AWS Media Services blog, Analog Way / PixelHue / NovaStar newsrooms, Evolve Academy and Analog Way Academy. Only web search was usable, and it returned no dated in-window news.",
+        "Coming up classes are carried forward unchanged from Nov 23 (none has started); session changes and seat status were not re-checked. Evolve class years remain inferred.",
+        "vendors.json was not changed this run."
+      ]
+    },
     {
       "kind": "weekly",
       "date": "2026-11-23",
@@ -5658,187 +5751,6 @@
         "EVS XT-S: channel counts, ST 2110 support and price still unpublished",
         "FOX World Series: replay server and HDR workflow still not published",
         "LED processors: no new Brompton, Megapixel, NovaStar or Analog Way firmware reported this week (Analog Way's latest is Aquilon 6.2, July 16)"
-      ]
-    },
-    {
-      "kind": "daily",
-      "date": "2026-10-25",
-      "headline": "Prime Video puts virtual replay in AWS",
-      "topline": "Prime Video opened its second NBA season with Prime 360, an AI virtual-camera replay system that reconstructs plays in 3D on AWS from a calibrated camera ring around the court. SVG's World Series follow-up also filled in FOX's truck plan and first-ever dirtcams.",
-      "items": [
-        {
-          "beat": "replay",
-          "brief": "AI virtual camera rebuilds NBA plays in 3D on AWS for replay and analysis.",
-          "id": "prime-video-prime-360-nba",
-          "sources": [
-            {
-              "label": "SVG",
-              "url": "https://www.sportsvideo.org/2026/10/23/prime-video-tips-off-second-nba-season-with-ai-driven-prime-360-photorealistic-virtual-camera-system/"
-            }
-          ],
-          "spec": "Perimeter array of synced, calibrated cameras; AWS Trainium; trucks on 400G Lawo/Arista ST 2110",
-          "status": "field",
-          "status_label": "On air now",
-          "title": "Prime 360 virtual camera system",
-          "vendor": "Prime Video, AWS, Game Creek Video",
-          "watch": "Whether Prime publishes camera count, round-trip latency or a turnaround time per clip.",
-          "what": "Prime 360 uses a ring of calibrated, synchronized high-resolution cameras around the court. The footage goes to AWS, where proprietary AI models running on Trainium chips reconstruct the play in 3D. Operators rotate the virtual camera and set keyframes like editing a clip. It is used in-game and in pre/half/postgame on select broadcasts. SVG gives no camera count or latency figure. The show itself is native 1080p HDR from Game Creek's Bird and Magic (up to 16 Sony HDC-5500 plus 16 more over ST 2110 each) and the Encore studio unit.",
-          "why": "This is volumetric replay running as a cloud service in a tier-one live show rather than as an on-site server. It's a sign that some 'replay' angles will come from compute and contribution bandwidth, not another hard camera or EVS channel."
-        },
-        {
-          "beat": "field",
-          "brief": "New since yesterday: Game Creek Yogi and NEP ND1, three wireless dirtcams, separate LatAm truck.",
-          "id": "fox-world-series-2026-trucks-dirtcams",
-          "sources": [
-            {
-              "label": "SVG",
-              "url": "https://www.sportsvideo.org/2026/10/23/dirtcam-expanded-specialty-cameras-highlight-fox-sports-world-series-production/"
-            }
-          ],
-          "spec": "3 Fletcher dirtcams (2 home plate, 1 mound); 11 of 18 extra feeds HFR",
-          "status": "field",
-          "status_label": "Series underway",
-          "title": "World Series: trucks, dirtcams and a LatAm feed",
-          "vendor": "FOX Sports, Game Creek Video, NEP, Fletcher, BSI, Bolt 6",
-          "watch": "FOX's Game 2 commercial-free inning from the studio set using the jib and drone.",
-          "what": "SVG adds what TV Tech's camera list left out. Game Creek Yogi handles Milwaukee, with two compounds about 500 ft apart linked by fiber. NEP ND1 moved from Los Angeles to Tropicana Field. Fletcher supplies three wireless dirtcams buried at home plate and the mound, a World Series first, received with high-gain antennas aimed down. A Rush Media truck carries the FOX Sports Latin America feed for FOX Mexico and FOX Deportes, also a first. Bolt 6 runs the AR. Vendors include BSI, Bexel and CES Power. Replay server and HDR details still aren't published.",
-          "why": "Buried wireless cameras and a separate-language truck are both RF and compound-planning problems as much as camera ones. The 55-second goalpost lighting truss (four crew vs. ~8 minutes and eight crew for a roof) is also a useful changeover reference for concourse sets."
-        },
-        {
-          "beat": "cloud",
-          "brief": "Self-service Linux-container ZoomISO Cloud instances inside CLOUDflex, with NDI out per participant.",
-          "id": "cloudflex-zoomiso-cloud",
-          "price": "CLOUDflex hourly hosting fee; customer supplies Zoom license",
-          "sources": [
-            {
-              "label": "SVG",
-              "url": "https://www.sportsvideo.org/2026/10/23/cloudflex-broadcast-integrates-zoomiso-cloud-into-its-platform/"
-            }
-          ],
-          "status": "ship",
-          "status_label": "Available now",
-          "title": "ZoomISO Cloud integrated into CLOUDflex",
-          "vendor": "CLOUDflex Broadcast, Zoom",
-          "watch": "Whether SRT or other outputs are added beyond NDI.",
-          "what": "CLOUDflex customers can deploy ZoomISO Cloud as a Linux container in minutes to bring Zoom guests into a cloud production as isolated video and audio. At launch it outputs NDI only. Customers use their own Zoom Enhanced Media Add-On or Zoom Events Hub Host seat. CLOUDflex bills hosting only for the hours the instance runs. It was previewed at IBC 2026.",
-          "why": "Remote guest ISOs are a routine need on corporate and hybrid events. Hourly cloud instances avoid holding an on-prem ZoomISO machine for occasional shows, though NDI-only output means planning your own SRT or 2110 handoff."
-        },
-        {
-          "beat": "field",
-          "brief": "NFL's Green-GO coach-to-coach and medical comms now ride 5G bridges, same kits abroad.",
-          "id": "nfl-green-go-international-comms",
-          "sources": [
-            {
-              "label": "SVG Europe",
-              "url": "https://www.svgeurope.org/blog/headlines/new-york-london-paris-how-the-nfls-comms-infrastructure-is-adapting-to-life-on-the-road/"
-            }
-          ],
-          "spec": "~78 devices per team kit; 2 laptops and 4 radios per cart",
-          "status": "field",
-          "status_label": "Paris today",
-          "title": "NFL coach and VIRS comms on the road",
-          "vendor": "NFL, Green-GO, Nova Lume, Verizon",
-          "watch": "Madrid and Munich games, which SVG Europe says are next.",
-          "what": "Green-GO (distributed in the U.S. by Nova Lume) runs the NFL's coach-to-coach, officiating and Video Injury Review System comms. The system moved to Verizon 5G via Green-GO bridges, with 4G support domestically. Each team travels with about 78 wired and wireless packs, so international games use the same kit as home games. Each sideline cart is redundant, with two Surface laptops and four radios. Coach-to-player helmet audio cuts at 15 seconds on the 40-second clock.",
-          "why": "It shows a mission-critical intercom running over cellular bridges rather than dedicated RF or fiber. That's a model worth noting for touring and pop-up venues where you don't own the network."
-        },
-        {
-          "beat": "field",
-          "brief": "About 57% first-time attendees, 72 countries, ~250 exhibitors; no total attendance yet.",
-          "id": "nab-show-ny-2026-wrap",
-          "sources": [
-            {
-              "label": "SVG",
-              "url": "https://www.sportsvideo.org/2026/10/23/nab-show-new-york-2026-wraps-with-57-first-time-attendees/"
-            }
-          ],
-          "status": "field",
-          "status_label": "Closed Oct 22",
-          "title": "NAB Show New York 2026 wrap",
-          "vendor": "NAB",
-          "watch": "NAB's full attendance number, promised in the coming weeks.",
-          "what": "NAB reported about 57% first-time attendees, 72 countries, about 250 exhibitors and sponsors, and 101 sessions with 156 speakers. It did not give a total attendance figure. The show returns to Javits Sept. 29-30, 2027, alongside the SMPTE Summit (Sept. 28-30).",
-          "why": "A floor of about 250 exhibitors is still a regional show. The 2027 SMPTE pairing is what may make it a must-attend engineering trip."
-        }
-      ],
-      "watch": [
-        {
-          "date": "2026-10-23",
-          "end": "2026-10-25",
-          "name": "F1 U.S. Grand Prix",
-          "note": "Race day. Apple TV carries Dolby Vision plus Dolby Atmos for the first time at this race.",
-          "place": "COTA, Austin"
-        },
-        {
-          "date": "2026-10-25",
-          "end": "2026-10-25",
-          "name": "NFL Paris game (Steelers vs. Saints) on ESPN",
-          "note": "Final game of ESPN's October Europe run: NEP Ceres/Mercury on site, EVS replay from Bristol, Green-GO coach comms over 5G.",
-          "place": "Stade de France, Paris"
-        },
-        {
-          "date": "2026-10-25",
-          "end": "2026-10-25",
-          "name": "NHL Heritage Classic",
-          "note": "Outdoor game with four in-rink stages; on SN, TVAS, TNT, truTV and HBO Max, 7 p.m. ET.",
-          "place": "Princess Auto Stadium, Winnipeg"
-        },
-        {
-          "date": "2026-10-26",
-          "end": "2026-10-26",
-          "name": "DirecTV 'Sport Equinox' multiview",
-          "note": "Four-game multiview of four major leagues playing at once; a consumer-side multiview test case.",
-          "place": "DirecTV"
-        },
-        {
-          "date": "2026-10-28",
-          "end": "2026-10-28",
-          "name": "ROE Visual Nashville hub open house",
-          "note": "First look at ROE's new repair, stock and training site.",
-          "place": "Nashville"
-        },
-        {
-          "date": "2026-11-04",
-          "end": "2026-11-05",
-          "name": "SATIS 2026",
-          "note": "Ross Video at Booth B15 with live production, automation and shared infrastructure.",
-          "place": "Docks de Paris, La Plaine Saint-Denis"
-        },
-        {
-          "date": "2026-11-06",
-          "end": "2026-11-08",
-          "name": "PBR Teams Championship",
-          "note": "Season finale for PBR's two-truck, 30-plus-camera Team Series production.",
-          "place": "T-Mobile Arena, Las Vegas"
-        },
-        {
-          "date": "2026-11-16",
-          "end": "2026-11-19",
-          "name": "SMPTE Media Technology Summit",
-          "note": "David Ross keynote. Expect ST 2110, MXL and cloud production papers. Last West Coast summit before the 2027 move to Javits with NAB Show NY.",
-          "place": "Pasadena"
-        },
-        {
-          "date": "2026-11-17",
-          "end": "2026-11-17",
-          "name": "EVS Q3 trading update",
-          "note": "Revised profitability guidance after the Oct 7 revenue cut.",
-          "place": "Online"
-        },
-        {
-          "date": "2026-12-06",
-          "end": "2026-12-08",
-          "name": "LDI 2026",
-          "note": "Analog Way booth 4430. Last LED/processing show of the year.",
-          "place": "Las Vegas"
-        }
-      ],
-      "open_questions": [
-        "Prime 360: camera count and latency unpublished",
-        "FOX World Series: replay server and HDR workflow still not published",
-        "Grass Valley AVORA: no U.S. price or ship date after NAB NY",
-        "EVS XT-S: channel counts, ST 2110 support and price still unpublished",
-        "LED processors: no new Brompton, Megapixel, NovaStar or Analog Way firmware reported this week"
       ]
     }
   ]
