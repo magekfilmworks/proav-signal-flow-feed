@@ -1,0 +1,1295 @@
+{
+ "generated_at": "2026-11-28T15:22:29Z",
+ "feeds": {
+  "sportsvideo.org": {
+   "ok": true,
+   "feed_url": "https://www.sportsvideo.org/feed/",
+   "error": null,
+   "newest_item_date": "2026-11-25",
+   "items": [
+    {
+     "title": "In the Beginning: How A (Not So) Happy Accident Created True Technological Audio Innovation at Salsa Sound",
+     "url": "https://www.svgeurope.org/blog/headlines/in-the-beginning-how-a-not-so-happy-accident-created-true-technological-audio-innovation-at-salsa-sound/#new_tab",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "RTÉ Mixes 2026 World Football Championship Commentary with Calrec Type R",
+     "url": "https://www.svgeurope.org/blog/news-roundup/rte-mixes-2026-world-football-championship-commentary-with-calrec-type-r/#new_tab",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Grass Valley Brings ZoomISO Cloud into AMPP as a Native Application",
+     "url": "https://www.sportsvideo.org/2026/11/24/grass-valley-brings-zoomiso-cloud-into-ampp-as-a-native-application/",
+     "date": "2026-11-24",
+     "relevant": true
+    },
+    {
+     "title": "2026 Sports Broadcasting Hall of Fame: Bob Iger, a Storyteller’s Instincts With an Executive’s Vision",
+     "url": "https://www.sportsvideo.org/2026/11/24/2026-sports-broadcasting-hall-of-fame-bob-iger-a-storytellers-instincts-with-an-executives-vision/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "SMT to Support Thanksgiving Weekend NFL and College Basketball Broadcasts",
+     "url": "https://www.sportsvideo.org/2026/11/24/smt-to-support-thanksgiving-weekend-nfl-and-college-basketball-broadcasts/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Netflix Looks To Establish New Holiday Tradition With NFL’s First Thanksgiving Eve Game",
+     "url": "https://www.sportsvideo.org/2026/11/24/netflix-looks-to-establish-new-holiday-tradition-with-nfls-first-thanksgiving-eve-game/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Yahoo Sports Network to Stream 25 Live Major Arena Soccer League Matches This Season",
+     "url": "https://www.sportsvideo.org/2026/11/24/yahoo-sports-network-to-stream-25-live-major-arena-soccer-league-matches-this-season/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "IMG’s Adam Kelly on Turning Production ‘From a Tool Into a Weapon’ and Building for MLS, Netflix",
+     "url": "https://www.sportsvideo.org/2026/11/24/imgs-adam-kelly-on-turning-production-from-a-tool-into-a-weapon-and-building-for-netflix/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Vindral and Sportswik Deliver Grassroots Football Streams with Two-Second Latency in Sweden",
+     "url": "https://www.sportsvideo.org/2026/11/24/vindral-and-sportswik-deliver-grassroots-football-streams-with-two-second-latency-in-sweden/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Diversified Names Mark Pritchard Chief Financial Officer",
+     "url": "https://www.sportsvideo.org/2026/11/24/diversified-names-mark-pritchard-chief-financial-officer/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "ESPN, Disney, NFL and IMAX to Bring Super Bowl LXI to IMAX Theaters for the First Time",
+     "url": "https://www.sportsvideo.org/2026/11/24/espn-disney-nfl-and-imax-to-bring-super-bowl-lxi-to-imax-theaters-for-the-first-time/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "SVG GameDay, Ep. 41: Cuento Marketing’s Matt Coy — Show Calling Across the Nation",
+     "url": "https://www.sportsvideo.org/2026/11/24/svg-gameday-ep-41-cuento-marketings-matt-coy-show-calling-across-the-nation/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "SVG New Sponsor Spotlight: Madison Holding Group’s Jesse Madison on the Three-Tiered Structure of CLOUDflex Broadcast, Purple Tally Productions, GEAR Labs",
+     "url": "https://www.sportsvideo.org/2026/11/24/svg-new-sponsor-spotlight-madison-holding-groups-jesse-madison-on-the-three-tiered-structure-of-cloudflex-broadcast-purple-tally-productions-gear-labs/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Diversified Joins Disguise Channel Partner Program",
+     "url": "https://www.sportsvideo.org/2026/11/23/diversified-joins-disguise-channel-partner-program/",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "DoP Peter Vidulich Shoots Netflix’s Wonka’s The Golden Ticket with More Than 100 Sony Cameras",
+     "url": "https://www.sportsvideo.org/2026/11/23/dop-peter-vidulich-shoots-netflixs-wonkas-the-golden-ticket-with-more-than-100-sony-cameras/",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Panasonic Announces AU-SHX1 Compact Cinema Camera for Broadcast and Live Production",
+     "url": "https://www.sportsvideo.org/2026/11/23/panasonic-announces-au-shx1-compact-cinema-camera-for-broadcast-and-live-production/",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "AWS AI To Power Real-Time Win Probabilities During The Skins Game on Prime Video",
+     "url": "https://www.sportsvideo.org/2026/11/23/aws-ai-to-power-real-time-win-probabilities-during-the-skins-game-on-prime-video/",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Standing on the Shoulders of Giants: Inside Vizrt’s Acquisition of Chyron",
+     "url": "https://www.svgeurope.org/blog/headlines/standing-on-the-shoulders-of-giants-inside-vizrts-acquisition-of-chyron/#new_tab",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "TGL’s Custom Holes Launch on Full Swing Simulators and KIT Launch Monitors",
+     "url": "https://www.sportsvideo.org/2026/11/23/tgls-custom-holes-launch-on-full-swing-simulators-and-kit-launch-monitors/",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "ATSC Celebrates Jerry Whitaker and Zandra Clarke on SMPTE Honors",
+     "url": "https://www.sportsvideo.org/2026/11/23/atsc-celebrates-jerry-whitaker-and-zandra-clarke-on-smpte-honors/",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "TGL, WTGL Are Sounding as Interesting as They Look",
+     "url": "https://www.sportsvideo.org/2026/11/23/tgl-wtgl-are-sounding-as-interesting-as-they-look/",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "Prime Video Launches New ‘Progressive Actions’ Feature on Its UEFA Champions League Coverage in the United Kingdom, Germany, Italy, and Ireland",
+     "url": "https://www.svgeurope.org/blog/top-stories/prime-video-launches-new-feature-for-champions-league-coverage/#new_tab",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "Full Day Productions President Dave Chamberlin on the Opportunities in Bringing Sports and Live Entertainment Together",
+     "url": "https://www.sportsvideo.org/2026/11/23/full-day-productions-president-dave-chamberlin-on-the-opportunities-in-bringing-sports-and-live-entertainment-together/",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "2026 Sports Broadcasting Hall of Fame: Troy Aikman, an Unexpected Second Calling",
+     "url": "https://www.sportsvideo.org/2026/11/23/2026-sports-broadcasting-hall-of-fame-troy-aikman-an-unexpected-second-calling/",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "How Meta, Cosm, and ESPN Are Leading a New Era of Immersive Sports Experiences",
+     "url": "https://www.sportsvideo.org/2026/11/23/how-meta-cosm-and-espn-are-leading-a-new-era-of-immersive-sports-experiences/",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "With Women’s Sports Programming Skyrocketing, Content and Production Strategy Are Evolving",
+     "url": "https://www.sportsvideo.org/2026/11/20/with-womens-sports-programming-skyrocketing-content-and-production-strategy-are-evolving/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Back at Belmont Park, Part 2: NYRA Reaps Benefits of Reimagined Track With Expanded Broadcast Capabilities",
+     "url": "https://www.sportsvideo.org/2026/11/20/back-at-belmont-park-part-2-nyra-reaps-benefits-of-reimagined-track-with-expanded-broadcast-capabilities/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "NBC Sports and The Soccer Tournament Agree to Two-Year Extension for TST 2027 and 2028",
+     "url": "https://www.sportsvideo.org/2026/11/20/nbc-sports-and-the-soccer-tournament-agree-to-two-year-extension-for-tst-2027-and-2028/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Brazil’s TV 3.0 Rollout Shows VVC Moving from Standards Work to Commercial Deployment",
+     "url": "https://www.sportsvideo.org/2026/11/20/brazils-tv-3-0-rollout-shows-vvc-moving-from-standards-work-to-commercial-deployment/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Seven Melbourne Selects RTS and Magna Systems for Comms Upgrade at New Facility",
+     "url": "https://www.sportsvideo.org/2026/11/20/seven-melbourne-selects-rts-and-magna-systems-for-comms-upgrade-at-new-facility/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Eutelsat Announces Three Executive Committee Appointments",
+     "url": "https://www.sportsvideo.org/2026/11/20/eutelsat-announces-three-executive-committee-appointments/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "münchen.tv Relies on Riedel Technology for New Production Center",
+     "url": "https://www.sportsvideo.org/2026/11/20/munchen-tv-relies-on-riedel-technology-for-new-production-center/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Apple TV Becomes U.S. Home of F1 Academy Beginning in 2027",
+     "url": "https://www.sportsvideo.org/2026/11/20/apple-tv-becomes-u-s-home-of-f1-academy-beginning-in-2027/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "RAF Partners with Migu Video to Bring RAF15 Main Event to China",
+     "url": "https://www.sportsvideo.org/2026/11/20/raf-partners-with-migu-video-to-bring-raf15-main-event-to-china/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Back at Belmont Park, Part 1: Historic Venue’s Renovation Puts a Premium on the Fan Experience",
+     "url": "https://www.sportsvideo.org/2026/11/20/back-at-belmont-park-part-1-historic-venues-renovation-puts-a-premium-on-the-fan-experience/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "SVG GameDay, Ep. 40: New York Mets’ Brendan McKeon — Firing Up Fans in Flushing",
+     "url": "https://www.sportsvideo.org/2026/11/20/svg-gameday-ep-40-new-york-mets-brendan-mckeon-firing-up-fans-in-flushing/",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "As FIFA Gears Up for Another World Cup Windfall, UEFA – and Relevent – are Preparing for Four More Years of Gianni Infantino",
+     "url": "https://www.svgeurope.org/blog/headlines/as-fifa-gears-up-for-another-world-cup-windfall-uefa-and-relevent-are-preparing-for-four-more-years-of-gianni-infantino/#new_tab",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "NDI 6.4 Adds Recording and Playback APIs, HEVC 4:4:4 and Wi-Fi Receiver Buffer",
+     "url": "https://www.sportsvideo.org/2026/11/19/ndi-6-4-adds-recording-and-playback-apis-hevc-444-and-wi-fi-receiver-buffer/",
+     "date": "2026-11-19",
+     "relevant": true
+    },
+    {
+     "title": "EITB Deploys SMPTE ST 2110 Infrastructure with Lawo HOME mc² DSP Processing",
+     "url": "https://www.sportsvideo.org/2026/11/19/eitb-deploys-smpte-st-2110-infrastructure-with-lawo-home-mc-dsp-processing/",
+     "date": "2026-11-19",
+     "relevant": true
+    },
+    {
+     "title": "ESPN’s Jimmy Pitaro on Super Bowl LXI: ‘A Yearlong Story That Features a Game’",
+     "url": "https://www.sportsvideo.org/2026/11/19/espns-jimmy-pitaro-on-super-bowl-lxi-a-yearlong-story-that-features-a-game/",
+     "date": "2026-11-19",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 50
+  },
+  "svgeurope.org": {
+   "ok": false,
+   "feed_url": null,
+   "error": "HTTP 403",
+   "newest_item_date": null,
+   "items": []
+  },
+  "tvtechnology.com": {
+   "ok": true,
+   "feed_url": "https://www.tvtechnology.com/feeds.xml",
+   "error": null,
+   "newest_item_date": "2026-11-25",
+   "items": [
+    {
+     "title": "AIMS Sets Winter 2027 IPMX Product Testing and Certification Event",
+     "url": "https://www.tvtechnology.com/standards/aims-announces-winter-2027-ipmx-product-testing-and-certification-event",
+     "date": "2026-11-25",
+     "relevant": true
+    },
+    {
+     "title": "The Thanksgiving 1986 DX Opening That Flooded North American Dials",
+     "url": "https://www.tvtechnology.com/platform/broadcast/the-thanksgiving-1986-dx-opening-that-flooded-north-american-dials",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "DoubleVerify to Support LG Ad Solutions’ Home Screen Inventory",
+     "url": "https://www.tvtechnology.com/platform/streaming/doubleverify-to-support-lg-ad-solutions-home-screen-inventory",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Blue Lucy, Moments Lab Integrate Solutions",
+     "url": "https://www.tvtechnology.com/production/postproduction/blue-lucy-moments-lab-integrate-solutions",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "FCC Outlines 'More Flexible Approach' in Approving Broadcast Ownership Transactions",
+     "url": "https://www.tvtechnology.com/regulatory-legal/fcc/fcc-outlines-more-flexible-approach-in-approving-broadcast-ownership-transactions",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Grass Valley Adds Native ZoomISO Cloud Support to AMPP",
+     "url": "https://www.tvtechnology.com/production/remote-production/grass-valley-adds-native-zoomiso-cloud-support-to-ampp",
+     "date": "2026-11-24",
+     "relevant": true
+    },
+    {
+     "title": "San Francisco-Area Independent Tower Owner Seeks New Tenants",
+     "url": "https://www.tvtechnology.com/platform/broadcast/san-francisco-area-independent-tower-owner-seeks-new-tenants",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Digital Subscription Offers Drive Retail Purchases, Report Says",
+     "url": "https://www.tvtechnology.com/platform/streaming/digital-subscription-offers-drive-retail-purchases-report-says",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "The Environmental Impact of M&E: Turning Awareness into Action",
+     "url": "https://www.tvtechnology.com/production/the-environmental-impact-of-m-and-e-turning-awareness-into-action",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "NABLF’s ‘Celebration of Service’ Special to Air Starting Nov. 28",
+     "url": "https://www.tvtechnology.com/events/nablfs-celebration-of-service-special-to-air-starting-nov-28",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Adder Names Nick Singh as CTO",
+     "url": "https://www.tvtechnology.com/business/people/adder-names-nick-singh-as-cto",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "More Than 100 Sony Cameras Capture Netflix’s Colorful ‘Wonka’",
+     "url": "https://www.tvtechnology.com/production/more-than-100-sony-cameras-capture-netflixs-colorful-wonka",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Panasonic Launches First Compact LUMIX Cinema Camera",
+     "url": "https://www.tvtechnology.com/production/panasonic-launches-first-compact-lumix-cinema-camera",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Vizrt CEO Discusses Road Map for Chyron's Future",
+     "url": "https://www.tvtechnology.com/business/vizrt-ceo-discusses-roadmap-for-chyrons-future",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Half of Digital Audiences Missed by Linear TV, Study Finds",
+     "url": "https://www.tvtechnology.com/business/half-of-digital-audiences-missed-by-linear-tv-study-finds",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "FCC Will Vote on Ownership Rules in December",
+     "url": "https://www.tvtechnology.com/regulatory-legal/fcc/fcc-will-vote-on-ownership-rules-in-december",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "Diversified Names Mark Pritchard CFO",
+     "url": "https://www.tvtechnology.com/business/people/diversified-names-mark-pritchard-cfo",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "Brightline Lighting Unveils MOD2 Light",
+     "url": "https://www.tvtechnology.com/production/brightline-lighting-unveils-mod2-light",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "ATSC’s Jerry Whitaker, Zandra Clarke Receive SMPTE Honors",
+     "url": "https://www.tvtechnology.com/business/people/atscs-jerry-whitaker-zandra-clarke-receive-smpte-honors",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Can a Democratic Congress Revive Public Media Funding?",
+     "url": "https://www.tvtechnology.com/regulatory-legal/can-a-democratic-congress-revive-public-media-funding",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "FIFA Finds Few U.S. Networks Interested in 2030 World Cup Broadcast Rights",
+     "url": "https://www.tvtechnology.com/business/fifa-finds-few-u-s-networks-interested-in-2030-world-cup-broadcast-rights",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "NBC Adds New Stats Feature for Premier League",
+     "url": "https://www.tvtechnology.com/production/sports-production/nbc-adds-new-stats-feature-for-premier-league",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "'World’s First' Hybrid Film Production Platform Debuts",
+     "url": "https://www.tvtechnology.com/production/scripted-production/worlds-first-hybrid-film-production-platform-debuts",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "3D Sound Specialist Turns to Nugen Halo Upmix",
+     "url": "https://www.tvtechnology.com/production/3d-sound-specialist-turns-to-nugen-halo-upmix",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "New DigitalGlue Mac App Identifies Media Production Hurdles",
+     "url": "https://www.tvtechnology.com/production/new-digitalglue-mac-app-identifies-media-production-hurdles",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "OBSBOT Unveils 2 New PTZR Cameras",
+     "url": "https://www.tvtechnology.com/production/obsbot-unveils-2-new-ptzr-cameras",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "FCC Modernizes Drone Communications, Detection Rules",
+     "url": "https://www.tvtechnology.com/regulatory-legal/fcc/fcc-modernizes-drone-communications-detection-rules",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Hearst TV Names Shawnda Adams to Lead KOCO-TV Oklahoma City",
+     "url": "https://www.tvtechnology.com/business/people/hearst-tv-names-shawnda-adams-to-lead-koco-tv-oklahoma-city",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Australia’s Seven Selects RTS Comms for New Headquarters",
+     "url": "https://www.tvtechnology.com/infrastructure/ip-networking/australias-seven-selects-rts-comms-for-new-headquarters",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Skydance to Combine Warner Bros. Television Group and Paramount Television Studios",
+     "url": "https://www.tvtechnology.com/business/skydance-to-combine-warner-bros-television-group-and-paramount-television-studios",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Charting the Progress of Brazil TV 3.0 with VVC",
+     "url": "https://www.tvtechnology.com/platform/broadcast/charting-the-progress-of-brazil-tv-3-0-with-vvc",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Samba Combines Streaming, Linear TV Data",
+     "url": "https://www.tvtechnology.com/business/samba-combines-streaming-linear-tv-data",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "HPA to Honor 'The Odyssey' Director Christopher Nolan with Judges Award for Creativity and Innovation",
+     "url": "https://www.tvtechnology.com/events/hpa-to-honor-the-odyssey-director-christopher-nolan-with-judges-award-for-creativity-and-innovation",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Newsmax Asks Court to Block Fox's Acquisition of Roku",
+     "url": "https://www.tvtechnology.com/regulatory-legal/newsmax-asks-court-to-block-foxs-acquisition-of-roku",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "NDI Releases Latest Version With Recording, Playback APIs",
+     "url": "https://www.tvtechnology.com/infrastructure/ip-networking/ndi-releases-latest-version-with-recording-playback-apis",
+     "date": "2026-11-18",
+     "relevant": true
+    },
+    {
+     "title": "BPS Trial at Dominion Energy Substation Proves Successful",
+     "url": "https://www.tvtechnology.com/platform/broadcast/bps-trial-at-dominion-energy-substation-proves-successful",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "Rise Awards 2026 Celebrate Inspirational Women in Broadcast",
+     "url": "https://www.tvtechnology.com/business/people/rise-awards-2026-celebrate-inspirational-women-in-broadcast",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "AES Adds Dialogue Intelligibility to Loudness Website",
+     "url": "https://www.tvtechnology.com/standards/aes-adds-dialogue-intelligibility-to-loudness-website",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "Spanish Media Group Deploys Lawo IP Audio Infrastructure",
+     "url": "https://www.tvtechnology.com/production/spanish-media-group-deploys-lawo-ip-audio-infrastructure",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "wTVision Qualifies NEOiD PTZ Cameras for Virtual Sets, AR",
+     "url": "https://www.tvtechnology.com/production/virtual-production/wtvision-qualifies-neoid-ptz-cameras-for-virtual-sets-ar",
+     "date": "2026-11-18",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 50
+  },
+  "tvnewscheck.com": {
+   "ok": true,
+   "feed_url": "https://tvnewscheck.com/feed/",
+   "error": null,
+   "newest_item_date": "2026-11-27",
+   "items": [
+    {
+     "title": "WCBS Legend Tony Aiello Signs Off In Surprise Thanksgiving Retirement",
+     "url": "https://tvnewscheck.com/journalism/article/wcbs-legend-tony-aiello-signs-off-in-surprise-thanksgiving-retirement/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "COUNT YOUR BLESSINGS",
+     "url": "https://tvnewscheck.com/business/article/count-your-blessings/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Judge Blocks FCC From Further Reviewing ABC Licenses",
+     "url": "https://tvnewscheck.com/regulation/article/judge-blocks-fcc-from-further-reviewing-abc-licenses/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "The Friendship Breakup That Led To Bob Iger’s Biggest Boardroom Fight",
+     "url": "https://tvnewscheck.com/business/article/the-friendship-breakup-that-led-to-bob-igers-biggest-boardroom-fight/",
+     "date": "2026-11-25",
+     "relevant": true
+    },
+    {
+     "title": "Macy’s Thanksgiving Day Parade Postponed To Saturday Due To Expected Bad Weather",
+     "url": "https://tvnewscheck.com/programming/article/macys-thanksgiving-day-parade-postponed-to-saturday-due-to-expected-bad-weather/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Dow Gains 164, Nasdaq Falls 148, S&P 500 Loses 18",
+     "url": "https://tvnewscheck.com/business/article/dow-gains-164-nasdaq-falls-148-sp-500-loses-18/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "MLB Launches Legal Action Against Its Players — Before The Lockout Even Begins",
+     "url": "https://tvnewscheck.com/business/article/mlb-launches-legal-action-against-its-players-before-the-lockout-even-begins/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Wall Street Journal Joins A Growing List Of Publishers Disallowing Bots By Default",
+     "url": "https://tvnewscheck.com/journalism/article/wall-street-journal-joins-a-growing-list-of-publishers-disallowing-bots-by-default/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Netflix As The New Cable",
+     "url": "https://tvnewscheck.com/business/article/netflix-as-the-new-cable/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Jenn Kuzmyk Stepping Down From Banff World Media Festival After Nearly A Decade",
+     "url": "https://deadline.com/2026/11/jenn-kuzmyk-stepping-down-banff-world-media-festival-1237233161/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "BBC Journalists Vote To Take Strike Action Over Job Cuts",
+     "url": "https://tvnewscheck.com/journalism/article/bbc-journalists-vote-to-take-strike-action-over-job-cuts/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Gordon Ramsay To Host ‘Top Gear’",
+     "url": "https://tvnewscheck.com/programming/article/gordon-ramsay-to-host-top-gear/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Streaming Ratings: ‘Rings of Power,’ ‘Black Doves’ Open Lower After Long Gaps Between Seasons",
+     "url": "https://tvnewscheck.com/programming/article/streaming-ratings-rings-of-power-black-doves-open-lower-after-long-gaps-between-seasons/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Court Won’t Revive Video Privacy Claim Against Hearst TV",
+     "url": "https://tvnewscheck.com/regulation/article/court-wont-revive-video-privacy-claim-against-hearst-tv/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Fox Soul Adds Its First Animated Series With ‘The Matumbilas’",
+     "url": "https://tvnewscheck.com/programming/article/fox-soul-adds-its-first-animated-series-with-the-matumbilas/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "KEYE Morning Anchor/Meteorologist Responds To Criticism About On-Air Outfit",
+     "url": "https://newsblues.com/2026/11/25/tv-morning-anchor-and-meteorologist-responds-to-criticism-about-her-on-air-outfit/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "BBC Asks Appeals Court To Toss Trump’s $10B Defamation Lawsuit",
+     "url": "https://tvnewscheck.com/journalism/article/bbc-asks-appeals-court-to-toss-trumps-10b-defamation-lawsuit/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Peacock Renews ‘Shop What Happens’ For Holiday Season Two",
+     "url": "https://tvnewscheck.com/business/article/peacock-renews-shop-what-happens-for-holiday-season-two/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Broadcast Monetization’s Next Challenge Is Making The Pieces Work Together",
+     "url": "https://tvnewscheck.com/business/article/broadcast-monetizations-next-challenge-is-making-the-pieces-work-together/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "AI Employees Sound Alarm: Models Too Powerful To Ever Release",
+     "url": "https://tvnewscheck.com/ai/article/ai-employees-sound-alarm-models-too-powerful-to-ever-release/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "This Veteran TV Journalist Could Go To Jail Unless She Gives Up A Confidential Source",
+     "url": "https://tvnewscheck.com/journalism/article/this-veteran-tv-journalist-could-go-to-jail-unless-she-gives-up-a-confidential-source/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "How Fed Up Americans Are With The Cost Of Streaming",
+     "url": "https://tvnewscheck.com/digital/article/how-fed-up-americans-are-with-the-cost-of-streaming/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Former Vice President Al Gore To Buy His Hometown Tennessee Newspaper",
+     "url": "https://tvnewscheck.com/journalism/article/former-vice-president-al-gore-to-buy-his-hometown-tennessee-newspaper/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "The BBC’s Latest Idea To Save £500M: Bring In Consultants",
+     "url": "https://tvnewscheck.com/business/article/the-bbcs-latest-idea-to-save-500m-bring-in-consultants/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "NBC ‘Monitoring’ Storm That Could Ground Macy’s Thanksgiving Day Parade Balloons",
+     "url": "https://tvnewscheck.com/programming/article/nbc-monitoring-storm-that-could-ground-macys-thanksgiving-day-parade-balloons/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Steven Hack, Original ‘Cats’ Castmember And Busy Onscreen Character Actor, Dies At 68",
+     "url": "https://www.hollywoodreporter.com/tv/tv-news/steven-hack-dead-cats-interact-theatre-company-1236762464/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "TV Ratings: NBA Logs Winning Streak In First Month Of The Season",
+     "url": "https://tvnewscheck.com/programming/article/tv-ratings-nba-logs-winning-streak-in-first-month-of-the-season/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "‘Dancing With The Stars: The Next Pro’ Renewed For Season 2",
+     "url": "https://tvnewscheck.com/programming/article/dancing-with-the-stars-the-next-pro-renewed-for-season-2/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Mike Tomlin Embraces NBC’s ‘Sunday Night Football’ Spotlight After Years Leading The Steelers",
+     "url": "https://tvnewscheck.com/journalism/article/mike-tomlin-embraces-nbcs-sunday-night-football-spotlight-after-years-leading-the-steelers/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Why America’s Broadcast Infrastructure Matters Beyond Television",
+     "url": "https://tvnewscheck.com/tech/article/why-americas-broadcast-infrastructure-matters-beyond-television/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Grass Valley Adds ZoomISO Cloud To AMPP",
+     "url": "https://tvnewscheck.com/tech/article/grass-valley-adds-zoomiso-cloud-to-ampp/",
+     "date": "2026-11-24",
+     "relevant": true
+    },
+    {
+     "title": "Dow Gains 423, Nasdaq Falls 356, S&P 500 Loses 36",
+     "url": "https://tvnewscheck.com/business/article/dow-gains-423-nasdaq-falls-356-sp-500-loses-36/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Netflix Acquires Radford Studio Lot For $380 Million",
+     "url": "https://tvnewscheck.com/business/article/netflix-acquires-radford-studio-lot-for-380-million/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Inside KCPQ Seattle’s New Downtown Broadcast Facility",
+     "url": "https://www.newscaststudio.com/2026/11/24/inside-fox-13-seattles-new-downtown-broadcast-facility/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "5 Decisions That Put ESPN’s Aikman-Buck Booth On The Brink",
+     "url": "https://tvnewscheck.com/journalism/article/5-decisions-that-put-espns-aikman-buck-booth-on-the-brink/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Top MS NOW Hosts Sign Letter Urging Versant To Ink Deal With Writers Guild East Members",
+     "url": "https://tvnewscheck.com/business/article/top-ms-now-hosts-sign-letter-urging-versant-to-ink-deal-with-writers-guild-east-members/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Montel Williams Gets Candid About The State Of Daytime TV",
+     "url": "https://tvnewscheck.com/programming/article/montel-williams-gets-candid-about-the-state-of-daytime-tv/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Digital Subscription Offers Drive Retail Purchases, Report Says",
+     "url": "https://tvnewscheck.com/business/article/digital-subscription-offers-drive-retail-purchases-report-says/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "San Francisco-Area Independent Tower Owner Seeks New Tenants",
+     "url": "https://www.tvtechnology.com/platform/broadcast/san-francisco-area-independent-tower-owner-seeks-new-tenants",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "184 NextGen TV Services Still Signaled Encryption During Emergency Alert Test",
+     "url": "https://tvnewscheck.com/tech/article/184-nextgen-tv-services-still-signaled-encryption-during-emergency-alert-test/",
+     "date": "2026-11-24",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 50
+  },
+  "newscaststudio.com": {
+   "ok": false,
+   "feed_url": null,
+   "error": "HTTP 403",
+   "newest_item_date": null,
+   "items": []
+  },
+  "ravepubs.com": {
+   "ok": false,
+   "feed_url": null,
+   "error": "HTTP 403",
+   "newest_item_date": null,
+   "items": []
+  },
+  "avnetwork.com": {
+   "ok": true,
+   "feed_url": "https://www.avnetwork.com/rss",
+   "error": null,
+   "newest_item_date": "2026-11-27",
+   "items": [
+    {
+     "title": "SCN Stocking Stuffers: Sony ECM-AX10",
+     "url": "https://www.avnetwork.com/products/scn-stocking-stuffers-sony-ecm-ax10",
+     "date": "2026-11-27",
+     "relevant": true
+    },
+    {
+     "title": "On Audio: Legrand Integrated AV",
+     "url": "https://www.avnetwork.com/news/on-audio-legrand-integrated-av",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Here's How Brompton Technology Bridges Classroom Teaching and Live Broadcast at Highlands College",
+     "url": "https://www.avnetwork.com/news/heres-how-brompton-technology-bridges-classroom-teaching-and-live-broadcast-at-highlands-college",
+     "date": "2026-11-25",
+     "relevant": true
+    },
+    {
+     "title": "AI-Assisted Production for Houses of Worship",
+     "url": "https://www.avnetwork.com/news/ai-assisted-production-for-houses-of-worship",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "On Audio: Extron",
+     "url": "https://www.avnetwork.com/news/on-audio-extron",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "On Audio & AI: Hall Research",
+     "url": "https://www.avnetwork.com/news/on-audio-hall-research",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "On Audio: Sennheiser",
+     "url": "https://www.avnetwork.com/news/on-audio-sennheiser",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Audio, Audio Everywhere",
+     "url": "https://www.avnetwork.com/news/audio-audio-everywhere",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Brightline Lighting Introduces the MOD2. Here's What to Know",
+     "url": "https://www.avnetwork.com/news/brightline-lighting-introduces-the-mod2-heres-what-to-know",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Panasonic Brings Compact Cinema Capabilities to Broadcast and Live Production",
+     "url": "https://www.avnetwork.com/news/panasonic-brings-compact-cinema-capabilities-to-broadcast-and-live-production",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Pro AV Newsmakers: Extron's AV Demonstration Experience, Haivision and Microsoft Team Up, and 15 More Moves to Know",
+     "url": "https://www.avnetwork.com/news/pro-av-newsmakers-extron-relaunches-av-demonstration-experience-haivision-and-microsoft-team-up",
+     "date": "2026-11-23",
+     "relevant": true
+    },
+    {
+     "title": "Video Case Study: How Fort Worth Modernizes Civic Spaces with Samsung",
+     "url": "https://www.avnetwork.com/news/video-case-study-how-fort-worth-modernizes-civic-spaces-with-samsung",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "On Audio: Yamaha",
+     "url": "https://www.avnetwork.com/news/on-audio-yamaha",
+     "date": "2026-11-23",
+     "relevant": false
+    },
+    {
+     "title": "On Audio & AI: Jabra",
+     "url": "https://www.avnetwork.com/news/on-audio-and-ai-jabra",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Vari-Lite Lights Up Matilda's Return to the Stage",
+     "url": "https://www.avnetwork.com/news/vari-lite-lights-up-matildas-return-to-the-stage",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "Sennheiser Eliminates RF Headaches for Theatrical Productions",
+     "url": "https://www.avnetwork.com/news/sennheiser-eliminates-rf-headaches-for-theatrical-productions",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "'A Feast for the Ears:' Check Out How Genelec Enhances the Dining Experience at Black Rabbit Restaurant",
+     "url": "https://www.avnetwork.com/news/a-feast-for-the-ears-check-out-how-genelec-enhances-the-dining-experience-at-black-rabbit-restaurant",
+     "date": "2026-11-20",
+     "relevant": false
+    },
+    {
+     "title": "On Audio: Bogen Communications",
+     "url": "https://www.avnetwork.com/news/on-audio-bogen-communications",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Nadella Puts AI at the Center of Workplace Collaboration at Microsoft Ignite 2026",
+     "url": "https://www.avnetwork.com/news/microsoft-ignite-2026-nadella-puts-ai-at-the-center-of-workplace-collaboration",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "216 JBL Professional VTX Loudspeakers Power ACCESS Worship Event at AT&T Stadium",
+     "url": "https://www.avnetwork.com/news/216-jbl-professional-vtx-loudspeakers-power-access-worship-event-at-at-and-t-stadium",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "AVPro Edge Delivers 4K SDVoE Performance and H.265 Efficiency Simultaneously",
+     "url": "https://www.avnetwork.com/news/avpro-edge-delivers-4k-sdvoe-performance-and-h-265-efficiency-simultaneously",
+     "date": "2026-11-19",
+     "relevant": false
+    },
+    {
+     "title": "Now Available: NDI 6.4 Adds Recording, Playback, and More",
+     "url": "https://www.avnetwork.com/news/now-available-ndi-6-4-adds-recording-playback-and-more",
+     "date": "2026-11-18",
+     "relevant": true
+    },
+    {
+     "title": "On Audio: SoundTube Entertainment",
+     "url": "https://www.avnetwork.com/news/on-audio-soundtube-entertainment",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "Nominations Open for ISE 2027 Best of Show Awards",
+     "url": "https://www.avnetwork.com/news/enter-the-ise-2027-best-of-show-awards",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "AV Storage, Refined: Peerless-AV Introduces the Refinio Credenza",
+     "url": "https://www.avnetwork.com/news/av-storage-refined-peerless-av-introduces-the-refinio-credenza",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "Auracast Goes Off-Broadway to Ensure Assistive Listening Is Always On",
+     "url": "https://www.avnetwork.com/news/auracast-goes-off-broadway-to-ensure-assistive-listening-is-always-on",
+     "date": "2026-11-18",
+     "relevant": false
+    },
+    {
+     "title": "Viewpoint: Stop Counting Badge Swipes",
+     "url": "https://www.avnetwork.com/business/expert-opinions/viewpoint-stop-counting-badge-swipes",
+     "date": "2026-11-18",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 50
+  },
+  "avnation.tv": {
+   "ok": false,
+   "feed_url": null,
+   "error": "HTTP 429",
+   "newest_item_date": null,
+   "items": []
+  },
+  "digitalavmagazine.com": {
+   "ok": true,
+   "feed_url": "https://www.digitalavmagazine.com/en/feed/",
+   "error": null,
+   "newest_item_date": "2026-11-27",
+   "items": [
+    {
+     "title": "INFiLED estrena TLens, una solución que reduce hasta un 60 % el consumo de los LED",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/infiled-tlens-encapsulado-led-dooh-menos-consumo-mvmk2/",
+     "date": "2026-11-27",
+     "relevant": true
+    },
+    {
+     "title": "Wavefront Precision (Martin Audio) brinda nitidez y potencia al concierto Chaturmas Bhakti",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/martin-audio-wavefront-precision-concierto-chaturmas-bhakti-vrs-pro-mumbai/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Colaboración, seguridad y sostenibilidad: las apuestas de Sharp para ISE 2027",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/sharp-ise-2027-colaboracion-seguridad-sostenibilidad-dvled-epaper/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Avolites despliega en Francia su nueva consola D3-010 chapada en oro de 24 quilates",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/avolites-golden-console-d3-010-oro-emmanuel-peyre-francia/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "UDE sonoriza la Catedral de Chiclayo, la diócesis del papa León XIV",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/ude-catedral-chiclayo-columnas-line-array-dsp-seesound/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Robe combina iluminación, vídeo y automatización en la gira de Pretty Lights",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/robe-combina-iluminacion-video-y-automatizacion-en-la-gira-de-pretty-lights/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Circuito Gran Vía renueva las diez pantallas digitales de los teatros Lope de Vega y Ocaso Coliseum",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/circuito-gran-via-renueva-diez-pantallas-digitales-teatros-lope-de-vega-y-ocaso-coliseum/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "FITZ Mallorca apuesta por d&b audiotechnik para ofrecer una experiencia sonora premium",
+     "url": "https://www.digitalavmagazine.com/2026/11/27/fitz-mallorca-apuesta-db-audiotechnik-experiencia-sonora-premium/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "DEX Studio (SIA Interactive) facilita el control de la señalización digital con un nuevo editor visual",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/dex-studio-sia-interactive-editor-visual-senalizacion-digital/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Claypaky reúne blancos calibrados, colores saturados y cambios rápidos en el nuevo CP Omnia L",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/claypaky-cp-omnia-l-cri-98-tlci-97-ip66/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "ISE desvela sus cartas para su edición 2027: experiencia VIP, tours tecnológicos, entornos de IA…",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/ise-2027-experiencia-vip-tech-tours-ia-drones/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Arde Bogotá recorre los escenarios de todo el mundo con los In-Ear y la microfonía inalámbrica de Wisycom",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/arde-bogota-wisycom-in-ear-microfonia-inalambrica-gira/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Xpeak y Xplorer Max (AEQ), nuevo sistema de intercomunicación del teatro Malé divadlo",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/aeq-xpeak-xplorer-max-intercom-male-divadlo/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "La red privada Easy5G de Riedel gestiona vídeo, iluminación, código de tiempo y audio en Klangwolke",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/riedel-easy5g-klangwolke-linz-red-5g-privada/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Acciona transforma el Huerto de Calixto y Melibea en Salamanca en un jardín inmersivo de luz y sonido",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/acciona-transforma-huerto-calixto-y-melibea-jardin-inmersivo-luz-y-sonido/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Omnex integra un sistema de proyección Christie en el cine de la Tate Modern en Londres",
+     "url": "https://www.digitalavmagazine.com/2026/11/26/omnex-integra-sistema-proyeccion-christie-tate-modern/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Paneles LED flexibles, transparentes y plegables, entre las propuestas de Absen para LDI 2026",
+     "url": "https://www.digitalavmagazine.com/2026/11/25/absen-ldi-2026-paneles-led-flexibles-transparentes-plegables/",
+     "date": "2026-11-25",
+     "relevant": true
+    },
+    {
+     "title": "Audac Touch 3.1: mejoras de seguridad y de gestión de media",
+     "url": "https://www.digitalavmagazine.com/2026/11/25/audac-touch-3-1-pin-dashboards-firmware/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Prolights amplía su familia CT+Jr con el perfil compacto EclProfile",
+     "url": "https://www.digitalavmagazine.com/2026/11/25/prolights-amplia-su-familia-ctjr-con-el-perfil-compacto-eclprofile/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Halo Crystal y Black Kite: las dos novedades de INFiLED para LDI 2026",
+     "url": "https://www.digitalavmagazine.com/2026/11/25/infiled-halo-crystal-black-kite-ldi-2026/",
+     "date": "2026-11-25",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 20
+  },
+  "installation-international.com": {
+   "ok": true,
+   "feed_url": "https://www.installation-international.com/feed",
+   "error": null,
+   "newest_item_date": "2026-11-27",
+   "items": [
+    {
+     "title": "Are video, lighting and live production becoming one?",
+     "url": "https://www.installation-international.com/technology/live-events/are-video-lighting-and-live-production-becoming-one",
+     "date": "2026-11-27",
+     "relevant": true
+    },
+    {
+     "title": "Arbane Groupe adds Vietnam distributor for Active Audio brand",
+     "url": "https://www.installation-international.com/business/distribution/arbane-groupe-adds-vietnam-distributor-for-active-audio-brand",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "22live adds Sennheiser Spectera to touring inventory",
+     "url": "https://www.installation-international.com/business/distribution/22live-adds-sennheiser-spectera-to-touring-inventory",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Genelec speakers upgrade historic Helsinki cinema",
+     "url": "https://www.installation-international.com/case-studies/genelec-speakers-upgrade-audio-at-historic-helsinki-cinema",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "HK Audio appoints new head of sales EMEA",
+     "url": "https://www.installation-international.com/people/hk-audio-promotes-new-head-of-sales-emea",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "From China to the strawberry fields of Andalusia",
+     "url": "https://www.installation-international.com/interview/from-china-to-strawberry-fields-forever",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Inside the Pyramid Stage: Engineering Glastonbury’s biggest venue",
+     "url": "https://www.installation-international.com/technology/live-events/inside-the-pyramid-stage-engineering-glastonburys-biggest-venue",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "L-Acoustics immersive sound technologies shine at french festival",
+     "url": "https://www.installation-international.com/technology/audio/125920-l-acous",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Immersive audio moves beyond the sweet spot",
+     "url": "https://www.installation-international.com/technology/immersive-tech/immersive-audio-moves-beyond-the-sweet-spot",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Perpetual motion: AV and the evolution of visitor attractions",
+     "url": "https://www.installation-international.com/events/visitor-attractions/perpetual-motion-av-and-the-evolution-of-visitor-attractions",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Installation December 2026",
+     "url": "https://www.installation-international.com/business/installation-magazine/installation-december-2026",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "December edition of Installation magazine now available",
+     "url": "https://www.installation-international.com/business/installation-magazine/december-edition-of-installation-magazine-now-available",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "Inside Track: Tori Bai, Shure",
+     "url": "https://www.installation-international.com/interview/inside-track-tori-bai-shure",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "AIMS sets third IPMX certification event for Geneva",
+     "url": "https://www.installation-international.com/business/training/aims-sets-third-ipmx-certification-event-for-geneva",
+     "date": "2026-11-26",
+     "relevant": true
+    },
+    {
+     "title": "Genelec expands Western Europe sales and support team",
+     "url": "https://www.installation-international.com/people/genelec-expands-western-europe-sales-and-support-team",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Manchester University adopts Sennheiser TeamConnect bars",
+     "url": "https://www.installation-international.com/case-studies/sennheiser-teamconnect-bars-adopted-at-manchester-university",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Dynamo LED Displays wraps BAT meeting room in 360-degree LED",
+     "url": "https://www.installation-international.com/case-studies/dynamo-led-displays-wraps-bat-meeting-room-in-360-degree-led",
+     "date": "2026-11-25",
+     "relevant": true
+    },
+    {
+     "title": "ISE reveals more details of VIP tier and 1,500-drone display for 2027 show",
+     "url": "https://www.installation-international.com/business/ise-2027/ise-reveals-more-details-of-vip-tier-and-1500-drone-show",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Lightroom prepares immersive Matisse and Ilori showcase",
+     "url": "https://www.installation-international.com/technology/immersive-tech/lightroom-prepares-immersive-matisse-and-ilori-showcase",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "Adder Technology appoints new chief technology officer",
+     "url": "https://www.installation-international.com/people/adder-technology-appoints-new-chief-technology-officer",
+     "date": "2026-11-25",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 20
+  },
+  "provideocoalition.com": {
+   "ok": true,
+   "feed_url": "https://www.provideocoalition.com/feed/",
+   "error": null,
+   "newest_item_date": "2026-11-27",
+   "items": [
+    {
+     "title": "How Five Movie Parade Scenes Were Filmed: Real Events and Built Crowds",
+     "url": "https://www.provideocoalition.com/how-movie-parade-scenes-were-filmed/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "MZed publishes 2026 camera test compendium covering 102 models",
+     "url": "https://www.provideocoalition.com/lab-test-compendium-2026/",
+     "date": "2026-11-27",
+     "relevant": false
+    },
+    {
+     "title": "FLiPP technology: next-gen OLED monitors will be cheaper, last longer",
+     "url": "https://www.provideocoalition.com/flipp-technology-next-gen-oled-monitors-will-be-cheaper-last-longer/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Christmas Gift Ideas for the Editor 2026",
+     "url": "https://www.provideocoalition.com/christmas-gift-ideas-for-the-editor-2026/",
+     "date": "2026-11-26",
+     "relevant": false
+    },
+    {
+     "title": "Radeus Labs announces Ignite SFF AI Workstation with 192 GB of memory",
+     "url": "https://www.provideocoalition.com/radeus-labs-ignite-sff-ai-workstation/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "PVC’s BIG Black Friday list for 2026: all the best deals",
+     "url": "https://www.provideocoalition.com/pvcs-big-black-friday-list-for-2026-all-the-best-deals/",
+     "date": "2026-11-25",
+     "relevant": false
+    },
+    {
+     "title": "SanDisk’s Extreme PRO V60 and V90 SD Cards Reach 2TB",
+     "url": "https://www.provideocoalition.com/sandisk-extreme-pro-v60-v90-sd-cards/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Plugs, Boots, Copper – Know Your Cable Maintenance & Replacement Parts",
+     "url": "https://www.provideocoalition.com/plugs-boots-copper-know-your-cable-maintenance-replacement-parts/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "Tool Tip Tuesday for Adobe Premiere: Creating Groups in Color Mode",
+     "url": "https://www.provideocoalition.com/tool-tip-tuesday-for-adobe-premiere-creating-groups-in-color-mode/",
+     "date": "2026-11-24",
+     "relevant": false
+    },
+    {
+     "title": "What Editors Can Learn from the Greatest Ad Agencies",
+     "url": "https://www.provideocoalition.com/what-editors-can-learn-from-the-greatest-ad-agencies/",
+     "date": "2026-11-23",
+     "relevant": false
+    }
+   ],
+   "items_in_feed": 10
+  },
+  "lightingandsoundamerica.com": {
+   "ok": false,
+   "feed_url": null,
+   "error": "HTTP 404",
+   "newest_item_date": null,
+   "items": []
+  }
+ },
+ "summary": {
+  "ok": 7,
+  "failed": [
+   "svgeurope.org",
+   "newscaststudio.com",
+   "ravepubs.com",
+   "avnation.tv",
+   "lightingandsoundamerica.com"
+  ]
+ }
+}
