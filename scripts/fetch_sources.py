@@ -55,6 +55,7 @@ SOURCES = [
     ("show_infocomm", "https://www.infocommshow.org/", 6000),
     ("show_ibc", "https://show.ibc.org/register-interest-ibc2027", 4000),
     ("show_ibc_home", "https://show.ibc.org/", 6000),
+    ("class_millumin_nyc", "https://millumin.com/nyc/", 6000),
     ("analogway_academy_sessions", "https://academy.analogway.com/in-person-trainings/training-sessions", 30000),
 ]
 
