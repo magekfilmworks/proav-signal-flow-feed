@@ -1,0 +1,30 @@
+name: Fetch sources
+on:
+  schedule:
+    - cron: "15 8 * * *"   # 08:15 UTC, ahead of the 09:59 UTC Claude task
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch source pages
+        run: python3 scripts/fetch_sources.py
+      - name: Commit data/sources.json
+        run: |
+          git config user.name "signal-flow-fetcher"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/sources.json
+          if git diff --cached --quiet; then echo "no change"; else
+            git commit -m "Fetch sources $(date -u +%F)"
+            git push origin HEAD:main
+          fi
