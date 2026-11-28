@@ -10,6 +10,7 @@ Standard library only.
 import datetime as dt
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -58,7 +59,7 @@ def strip_html(raw):
     return "\n".join(l for l in lines if l)
 
 
-def fetch(url, tries=3):
+def fetch(url, tries=4):
     last = None
     for n in range(tries):
         try:
@@ -67,13 +68,19 @@ def fetch(url, tries=3):
                 "Accept-Language": "en-US,en;q=0.9"})
             with urllib.request.urlopen(req, timeout=40) as r:
                 body = r.read(3_000_000)
-                enc = r.headers.get_content_charset() or "utf-8"
-                return {"status": r.status, "error": None,
-                        "text": body.decode(enc, errors="replace")}
+                try:
+                    enc = r.headers.get_content_charset() or "utf-8"
+                    txt = body.decode(enc, errors="replace")
+                except (LookupError, ValueError):  # e.g. charset header "none"
+                    txt = body.decode("utf-8", errors="replace")
+                return {"status": r.status, "error": None, "text": txt}
         except urllib.error.HTTPError as e:
             last = {"status": e.code, "error": f"HTTP {e.code}", "text": ""}
             if e.code in (403, 404, 410):
                 break
+            if e.code == 429:  # rate limited: wait much longer before retrying
+                time.sleep(30 * (n + 1))
+                continue
         except Exception as e:  # noqa: BLE001
             last = {"status": None, "error": f"{type(e).__name__}: {e}", "text": ""}
         time.sleep(3 * (n + 1))
@@ -96,7 +103,8 @@ def main():
         out["sources"][sid] = collect(sid, url, limit)
         print(f"{'OK  ' if out['sources'][sid]['ok'] else 'FAIL'} {sid} "
               f"{out['sources'][sid]['http_status']} {out['sources'][sid]['error'] or ''}")
-        time.sleep(1)
+        # be gentle: evolveacademy.live rate-limits quick successive requests
+        time.sleep(8 if "evolveacademy" in url else 1)
     # Blackmagic release pages: the news list is JavaScript, so probe the last 4 days.
     probes = {}
     for back in range(0, 4):
@@ -114,6 +122,7 @@ def main():
     n_ok = sum(1 for s in out["sources"].values() if s["ok"])
     out["summary"] = {"ok": n_ok, "failed": len(out["sources"]) - n_ok,
                       "failed_ids": [k for k, s in out["sources"].items() if not s["ok"]]}
+    os.makedirs("data", exist_ok=True)
     with open("data/sources.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(json.dumps(out["summary"]))
