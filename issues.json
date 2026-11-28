@@ -4,27 +4,63 @@
     {
       "kind": "daily",
       "date": "2026-11-28",
-      "headline": "Quiet day",
-      "topline": "No new dated vendor, trade or standards news could be confirmed today because the source pages could not be fetched; AWS re:Invent (Nov 30) and LDI (Dec 4-8) are the next catalysts.",
+      "headline": "KAIROS 2.1.7 and Panasonic LED firmware",
+      "topline": "Panasonic posted KAIROS firmware 2.1.7 on Nov 26 and, on Nov 17, LED Color Adjustment firmware across its studio camera line; Barco and PixelHue pages still could not be read.",
       "items": [
         {
-          "beat": "led",
-          "brief": "Booth 2203 will launch Graphite Curve and show a new indoor/outdoor rental platform.",
-          "id": "roe-ldi-2026-countdown-nov28",
+          "beat": "switching",
+          "brief": "Panasonic lists KAIROS IT/IP platform firmware 2.1.7, five weeks after 2.1.6.",
+          "id": "panasonic-kairos-2-1-7",
           "sources": [
             {
-              "label": "Lighting&Sound America",
-              "url": "http://www.lightingandsoundamerica.com/news/story.asp?ID=TO3LRR"
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/whatsnew/"
             }
           ],
-          "spec": "Graphite Curve: OneCurveLock, 20° concave to 20° convex",
-          "status": "later",
-          "status_label": "LDI Dec 4-8",
-          "title": "ROE Visual LDI 2026 lineup (context)",
-          "vendor": "ROE Visual",
-          "watch": "Pitch, pricing and shipping dates for the new rental platform, none of which have been stated.",
-          "what": "Previously reported: ROE's LDI booth (2203, 2,000 sq ft) will officially launch Graphite Curve and show a new rental platform pitched as a single inventory for indoor and outdoor use. No new information today. (Carried forward as context; no new source was readable today.)",
-          "why": "Curved-capable tile and a unified rental inventory affect LED spec and prep decisions for touring and rental shops; worth knowing before the show floor."
+          "status": "ship",
+          "status_label": "Firmware 2.1.7",
+          "title": "KAIROS firmware ver. 2.1.7",
+          "vendor": "Panasonic Connect",
+          "watch": "The 2.1.7 change list on Panasonic's KAIROS download page.",
+          "what": "Panasonic's What's New page lists firmware for the KAIROS IT/IP platform updated to ver. 2.1.7 on Nov 26, 2026; the previous entry was ver. 2.1.6 on Oct 20. The release-notes page could not be opened, so what changed is not stated here.",
+          "why": "KAIROS systems on a show network should not be updated blind: check the release notes before touching a rig that is in rotation."
+        },
+        {
+          "beat": "field",
+          "brief": "Four camera and control products gain an LED Color Adjustment feature via firmware (listed Nov 17).",
+          "id": "panasonic-led-color-adjustment-fw",
+          "sources": [
+            {
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/whatsnew/"
+            }
+          ],
+          "spec": "AK-UCX100 v1.92 · AK-UBX100 v1.35 · AK-UCU700 CCU ver. 0D.DC-000-01.00 · ROP AK-HRP1010GJ 1.29-00-0.02 / AK-HRP1015GJ 2.21-00-0.03",
+          "status": "ship",
+          "status_label": "Firmware",
+          "title": "Panasonic LED Color Adjustment firmware across studio camera line",
+          "vendor": "Panasonic Connect",
+          "watch": "Panasonic's description of the feature and whether it is limited to specific LED setups.",
+          "what": "Panasonic's What's New page lists firmware updates dated Nov 17, 2026 for the AK-UCX100 4K Studio Camera, AK-UBX100 4K Multi Purpose Camera, AK-UCU700 Series CCU and the AK-HRP1010GJ / AK-HRP1015GJ remote operation panels, each adding an LED Color Adjustment feature. The download pages could not be opened, so the feature's details are not stated here. First confirmed today.",
+          "why": "Cameras shooting LED walls and virtual sets often need color tuned against the panel; a camera-side adjustment in the CCU/ROP workflow may cut shading time."
+        },
+        {
+          "beat": "field",
+          "brief": "Dec 7 Buford session lists \"0 seats left / Full session\"; next Buford is Feb 1, 2027.",
+          "id": "analogway-buford-aquilon-dec7-full",
+          "sources": [
+            {
+              "label": "Analog Way Academy",
+              "url": "https://academy.analogway.com/in-person-trainings/training-sessions"
+            }
+          ],
+          "status": "field",
+          "status_label": "Session full",
+          "title": "Analog Way Academy Aquilon Level 3, Buford (Dec 7-11)",
+          "vendor": "Analog Way",
+          "watch": "Whether the detail page or Analog Way sales shows a waitlist for Dec 7.",
+          "what": "The Analog Way Academy listing shows the Dec 7, 2026 Buford, GA Aquilon certification (5 days) as \"0 seats left, Full session\", while the detail page shows seat status as N/A. The listing's next Buford sessions are Level 3 on Feb 1, 2027 ($2,400, \"10 seats left\"), Mar 1 and Mar 15, 2027.",
+          "why": "If you need Aquilon certification for the spring season, the Dec session appears gone and February is the next window."
         }
       ],
       "watch": [
@@ -47,7 +83,7 @@
           "end": "2026-12-11",
           "kind": "class",
           "name": "Class: Aquilon Certified Operator Training, Level 3",
-          "note": "5-day in-person certification (Levels 1+2+3), instructor Carl Houde. Requires the online course \"Aquilon from A to Z\". Price: contact Analog Way sales. Seat status unclear: the listing shows both \"1 seat left\" and \"Full session\".",
+          "note": "5-day in-person certification (Levels 1+2+3), instructor Carl Houde. Requires the online course \"Aquilon from A to Z\". Price: contact Analog Way sales. Listing shows \"0 seats left / Full session\"; the detail page shows seat status N/A. Next Buford session: Feb 1, 2027 (Level 3, $2,400).",
           "place": "Buford, GA · Analog Way Academy",
           "url": "https://academy.analogway.com/in-person-certifications/nala---2026-12-07---livepremier-tm-presentation-systems---certification---level-3---u-s-a"
         },
@@ -56,7 +92,7 @@
           "end": "2026-12-07",
           "kind": "class",
           "name": "Class: PixelHue Remote Training",
-          "note": "4-hour beginner course with certification, $300. The exam is required before the in-person Advanced course. Next date Jan 11.",
+          "note": "4-hour beginner course with certification, $300, 1-5 pm ET. Exam is required before the in-person Advanced course. Next date Jan 11.",
           "place": "Remote, 1–5 pm ET · Evolve Academy",
           "url": "https://evolveacademy.live/product/pixelhue-remote-training/"
         },
@@ -89,9 +125,11 @@
         }
       ],
       "open_questions": [
-        "All page fetches failed again this run (PROVENANCE_REQUIRED, permission requests unanswered): Panasonic What's New, SMPTE ST 2110 blog, AWS Media Services blog, Blackmagic /media/ and release-notes, Barco portal (left out per portal rule), Analog Way news and Academy sessions, PixelHue, NovaStar, Evolve Academy. WebSearch returns no dates, so nothing could be verified.",
-        "Coming up entries are carried forward unchanged from Nov 27 (none has started); Analog Way Buford seat status and Evolve sessions were not re-checked. Evolve class years remain inferred.",
-        "vendors.json was not changed this run."
+        "Fetching now works. Barco portal and all barco.com pages returned client_error, so Barco is left out; PixelHue returned ROBOTS_UNREACHABLE.",
+        "Panasonic detail pages (eww.pass.panasonic.co.jp) returned ROBOTS_UNREACHABLE, so KAIROS 2.1.7 and the LED Color Adjustment firmware use the What's New listing date and title only.",
+        "Blackmagic /media/ and release archive render no entries and dated release probes were empty; release-notes versions (ATEM 11.0.1, HyperDeck 9.0.2, Videohub 11.0.1, Resolve 21.2, Camera 10.3.4) were already covered and are undated. Cloud Store 2.1.1 is undated, so not reported.",
+        "SMPTE ST 2110 blog (newest Nov 19) and AWS Media Services blog (newest Mar 2, 2026) had nothing new. NovaStar and Analog Way news had nothing dated inside the window.",
+        "Evolve class years are inferred. Pixera also lists \"December 7-9 Orlando\" with no year; list order suggests Dec 2027, so the Feb 11-13, 2027 Las Vegas session is kept as the next one. Encore3 and PixelHue Level 2 pages show out of stock with no sessions, so they are left out."
       ]
     },
     {

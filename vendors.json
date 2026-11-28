@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-28",
   "vendors": [
     {
       "key": "blackmagic",
@@ -381,6 +381,22 @@
       "direct": true,
       "items": [
         {
+          "id": "panasonic-kairos-2-1-7",
+          "beat": "switching",
+          "title": "KAIROS firmware ver. 2.1.7",
+          "vendor": "Panasonic Connect",
+          "date": "2026-11-26",
+          "when": "Nov 26, 2026",
+          "brief": "Firmware for the KAIROS IT/IP platform was updated to ver. 2.1.7.",
+          "status_label": "Firmware 2.1.7",
+          "sources": [
+            {
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/whatsnew/"
+            }
+          ]
+        },
+        {
           "id": "panasonic-au-shx1-au-lpu1",
           "beat": "field",
           "title": "AU-SHX1 4K Video Camera and AU-LPU1 Live Production Unit",
@@ -401,6 +417,22 @@
           ],
           "spec": "6K full-frame sensor · L-Mount · Blackmagic RAW and ProRes RAW · 4K 120p",
           "what": "Panasonic lists the AU-SHX1 as a 4K video camera built on the full-frame LUMIX S Series imaging system, with a 6K (24.1MP) full-frame partially stacked CMOS sensor and the L-Mount. It records Blackmagic RAW to an external SSD, ProRes RAW and unlimited 4K 120p. The AU-LPU1 Live Production Unit, sold separately, is designed for multi-camera recording at live events and adds live streaming and remote control. Price and release date are not stated on the page."
+        },
+        {
+          "id": "panasonic-led-color-adjustment-fw",
+          "beat": "field",
+          "title": "LED Color Adjustment firmware: AK-UCX100, AK-UBX100, AK-UCU700, ROP",
+          "vendor": "Panasonic Connect",
+          "date": "2026-11-17",
+          "when": "Nov 17, 2026",
+          "brief": "Firmware adding an LED Color Adjustment feature for the AK-UCX100 (1.92), AK-UBX100 (1.35), AK-UCU700 CCU and AK-HRP1010GJ/1015GJ panels.",
+          "status_label": "Firmware",
+          "sources": [
+            {
+              "label": "Panasonic Connect",
+              "url": "https://pro-av.panasonic.net/en/whatsnew/"
+            }
+          ]
         },
         {
           "id": "panasonic-kairos-alliance-media-links",
@@ -434,40 +466,6 @@
             }
           ],
           "what": "Panasonic's What's New list shows the KAIROS firmware updated to ver. 2.1.6. The change notes sit behind Panasonic's support login, so what changed is not stated here."
-        },
-        {
-          "id": "panasonic-aw-ue5",
-          "beat": "field",
-          "title": "AW-UE5W/K 4K Integrated Camera",
-          "vendor": "Panasonic Connect",
-          "date": "2026-07-07",
-          "when": "Jul 7, 2026",
-          "brief": "Compact 4K PTZ camera with an ultra-wide 121 degree lens and NDI HX.",
-          "status_label": "Released",
-          "sources": [
-            {
-              "label": "Panasonic Connect",
-              "url": "https://pro-av.panasonic.net/en/products/aw-ue5/"
-            }
-          ],
-          "spec": "4K · 121° horizontal field of view · PoE · NDI HX · RTMP/RTMPS",
-          "what": "Panasonic lists the AW-UE5W (white) and AW-UE5K (black) as a compact 4K integrated PTZ camera with smooth 4K/60p video output, an ultra-wide lens, PoE power and certified NDI HX, plus RTMP and RTMPS streaming. Price and sensor details are not stated on the page."
-        },
-        {
-          "id": "panasonic-aw-rp200gj",
-          "beat": "field",
-          "title": "AW-RP200GJ Remote Camera Controller",
-          "vendor": "Panasonic Connect",
-          "date": "2026-02-13",
-          "when": "Feb 13, 2026",
-          "brief": "New remote camera controller for Panasonic PTZ systems.",
-          "status_label": "Released",
-          "sources": [
-            {
-              "label": "Panasonic Connect",
-              "url": "https://pro-av.panasonic.net/en/products/aw-rp200gj/"
-            }
-          ]
         },
         {
           "id": "panasonic-aw-ue200k",
