@@ -15,6 +15,8 @@ import re
 import sys
 import time
 import urllib.request
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/124.0 Safari/537.36 SignalFlowDailyFetcher")
@@ -94,8 +96,127 @@ def collect(sid, url, limit):
     text = strip_html(res["text"]) if res["text"] else ""
     ok = res["status"] == 200 and len(text) > 200
     return {"url": url, "ok": ok, "http_status": res["status"], "error": res["error"],
+            "newest_date_seen": newest_date_seen(text[:limit], dt.date.today()),
             "chars_total": len(text), "truncated": len(text) > limit,
             "text": text[:limit]}
+
+
+MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+DATE_RES = [
+    (re.compile(r"\b(20\d\d)-(\d\d)-(\d\d)\b"), lambda m: (int(m[1]), int(m[2]), int(m[3]))),
+    (re.compile(r"\b([A-Z][a-z]{2,8})\.? (\d{1,2}),? (20\d\d)\b"),
+     lambda m: (int(m[3]), MONTHS.get(m[1][:3].lower(), 0), int(m[2]))),
+    (re.compile(r"\b(\d{1,2}) ([A-Za-z]{3,9})\.?,? (20\d\d)\b"),
+     lambda m: (int(m[3]), MONTHS.get(m[2][:3].lower(), 0), int(m[1]))),
+]
+
+
+def newest_date_seen(text, today):
+    """Heuristic: the latest plausible date written anywhere in the text."""
+    best = None
+    for rx, conv in DATE_RES:
+        for m in rx.finditer(text):
+            try:
+                y, mo, d = conv(m)
+                dd = dt.date(y, mo, d)
+            except (ValueError, TypeError):
+                continue
+            if dd <= today and (best is None or dd > best):
+                best = dd
+    return best.isoformat() if best else None
+
+
+# Trade news feeds. Each site lists candidate feed URLs; the first that parses wins.
+TRADE_FEEDS = {
+    "sportsvideo.org": ["https://www.sportsvideo.org/feed/"],
+    "svgeurope.org": ["https://www.svgeurope.org/feed/"],
+    "tvtechnology.com": ["https://www.tvtechnology.com/feeds.xml", "https://www.tvtechnology.com/feed"],
+    "tvnewscheck.com": ["https://tvnewscheck.com/feed/"],
+    "newscaststudio.com": ["https://www.newscaststudio.com/feed/"],
+    "ravepubs.com": ["https://ravepubs.com/feed/"],
+    "avnetwork.com": ["https://www.avnetwork.com/rss", "https://www.avnetwork.com/feed"],
+    "avnation.tv": ["https://www.avnation.tv/feed/"],
+    "digitalavmagazine.com": ["https://www.digitalavmagazine.com/en/feed/", "https://www.digitalavmagazine.com/feed/"],
+    "installation-international.com": ["https://www.installation-international.com/feed", "https://www.installation-international.com/rss"],
+    "provideocoalition.com": ["https://www.provideocoalition.com/feed/"],
+    "lightingandsoundamerica.com": ["https://www.lightingandsoundamerica.com/rss.asp"],
+}
+KEYWORDS = re.compile(
+    r"\b(led|video wall|processor|screen management|switcher|atem|hyperdeck|blackmagic|barco|event master|encore3?|"
+    r"e2|analog ?way|aquilon|livepremier|pixel ?hue|novastar|brompton|tessera|megapixel|helios|disguise|roe|absen|"
+    r"panasonic|kairos|ross|grass valley|sony|tricaster|vizrt|vmix|for-a|evs|3play|aja|ki pro|"
+    r"st ?2110|ipmx|ndi|srt|mxl|ampp|liveu|tvu|haivision|aws|cloud|remote production|replay|firmware|"
+    r"live production|ob truck|projector|projection)\b", re.I)
+
+
+def parse_feed(xml_text):
+    root = ET.fromstring(xml_text.lstrip("﻿").strip())
+    ns = {"a": "http://www.w3.org/2005/Atom", "dc": "http://purl.org/dc/elements/1.1/"}
+    items = []
+    for it in root.iter():
+        tag = it.tag.split("}")[-1]
+        if tag not in ("item", "entry"):
+            continue
+        def g(*names):
+            for n in names:
+                for c in it:
+                    if c.tag.split("}")[-1] == n and (c.text or "").strip():
+                        return c.text.strip()
+            return None
+        title = g("title")
+        link = g("link")
+        if not link:
+            for c in it:
+                if c.tag.split("}")[-1] == "link" and c.get("href"):
+                    link = c.get("href")
+                    break
+        raw = g("pubDate", "published", "updated", "date")
+        when = None
+        if raw:
+            try:
+                when = parsedate_to_datetime(raw)
+            except (TypeError, ValueError):
+                try:
+                    when = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                except ValueError:
+                    when = None
+        if title and link:
+            items.append({"title": html.unescape(title)[:200], "url": link,
+                          "date": when.date().isoformat() if when else None})
+    return items
+
+
+def collect_trade(now):
+    cutoff = (now - dt.timedelta(days=10)).date().isoformat()
+    out = {"generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "feeds": {}}
+    for site, urls in TRADE_FEEDS.items():
+        rec = {"ok": False, "feed_url": None, "error": None, "newest_item_date": None, "items": []}
+        for u in urls:
+            r = fetch(u, tries=2)
+            if r["status"] != 200 or not r["text"]:
+                rec["error"] = r["error"] or f"HTTP {r['status']}"
+                continue
+            try:
+                items = parse_feed(r["text"])
+            except ET.ParseError as e:
+                rec["error"] = f"not a feed: {e}"
+                continue
+            dated = [i["date"] for i in items if i["date"]]
+            rec.update(ok=True, feed_url=u, error=None,
+                       newest_item_date=max(dated) if dated else None, items_in_feed=len(items))
+            recent = [i for i in items if (i["date"] or "9999") >= cutoff]
+            for i in recent:
+                i["relevant"] = bool(KEYWORDS.search(i["title"]))
+            recent.sort(key=lambda i: (not i["relevant"], i["date"] or ""), reverse=False)
+            rec["items"] = sorted(recent, key=lambda i: i["date"] or "", reverse=True)[:40]
+            break
+        out["feeds"][site] = rec
+        print(f"{'OK  ' if rec['ok'] else 'FAIL'} feed {site} newest={rec['newest_item_date']} {rec['error'] or ''}")
+        time.sleep(1)
+    out["summary"] = {"ok": sum(1 for f in out["feeds"].values() if f["ok"]),
+                      "failed": [k for k, f in out["feeds"].items() if not f["ok"]]}
+    return out
 
 
 def main():
@@ -126,6 +247,18 @@ def main():
     out["summary"] = {"ok": n_ok, "failed": len(out["sources"]) - n_ok,
                       "failed_ids": [k for k, s in out["sources"].items() if not s["ok"]]}
     os.makedirs("data", exist_ok=True)
+    trade = collect_trade(now)
+    with open("data/trade_news.json", "w", encoding="utf-8") as f:
+        json.dump(trade, f, ensure_ascii=False, indent=1)
+    out["health"] = {k: {"fetched": s["ok"], "http_status": s["http_status"],
+                         "newest_date_seen": s["newest_date_seen"],
+                         "reading": ("FETCH FAILED" if not s["ok"] else
+                                     "fetched; newest dated item " + (s["newest_date_seen"] or "unknown (no date found)"))}
+                     for k, s in out["sources"].items()}
+    out["health"].update({"trade:" + k: {"fetched": v["ok"], "newest_date_seen": v["newest_item_date"],
+                                         "reading": "FEED FAILED: " + str(v["error"]) if not v["ok"]
+                                         else "feed ok; newest item " + str(v["newest_item_date"])}
+                          for k, v in trade["feeds"].items()})
     with open("data/sources.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(json.dumps(out["summary"]))
