@@ -78,8 +78,10 @@ def fetch(url, tries=4):
             last = {"status": e.code, "error": f"HTTP {e.code}", "text": ""}
             if e.code in (403, 404, 410):
                 break
-            if e.code == 429:  # rate limited: wait much longer before retrying
-                time.sleep(30 * (n + 1))
+            if e.code == 429:  # rate limited: one patient retry, then give up
+                if n >= 1:
+                    break
+                time.sleep(45)
                 continue
         except Exception as e:  # noqa: BLE001
             last = {"status": None, "error": f"{type(e).__name__}: {e}", "text": ""}
@@ -99,12 +101,13 @@ def collect(sid, url, limit):
 def main():
     now = dt.datetime.now(dt.timezone.utc)
     out = {"generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "sources": {}}
-    for sid, url, limit in SOURCES:
+    ordered = [x for x in SOURCES if 'evolveacademy' not in x[1]] + [x for x in SOURCES if 'evolveacademy' in x[1]]
+    for sid, url, limit in ordered:
         out["sources"][sid] = collect(sid, url, limit)
         print(f"{'OK  ' if out['sources'][sid]['ok'] else 'FAIL'} {sid} "
               f"{out['sources'][sid]['http_status']} {out['sources'][sid]['error'] or ''}")
         # be gentle: evolveacademy.live rate-limits quick successive requests
-        time.sleep(8 if "evolveacademy" in url else 1)
+        time.sleep(15 if "evolveacademy" in url else 1)
     # Blackmagic release pages: the news list is JavaScript, so probe the last 4 days.
     probes = {}
     for back in range(0, 4):
