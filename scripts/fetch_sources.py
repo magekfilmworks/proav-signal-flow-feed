@@ -47,6 +47,14 @@ SOURCES = [
     ("evolve_pixelhue_l2", "https://evolveacademy.live/product/pixelhue-level-2-advanced-certification/", 6000),
     ("evolve_pixelhue_remote", "https://evolveacademy.live/product/pixelhue-remote-training/", 6000),
     ("evolve_view_all", "https://evolveacademy.live/view-all/", 8000),
+    # Trade shows (dates are re-checked every run; shows are listed on the "Coming up" grid)
+    ("show_ldi", "https://www.ldishow.com/", 5000),
+    ("show_ise", "https://www.iseurope.org/", 5000),
+    ("show_nab", "https://www.nabshow.com/", 6000),
+    ("show_nab_why", "https://www.nabshow.com/exhibit-sponsor/las-vegas/why-nab-show/", 4000),
+    ("show_infocomm", "https://www.infocommshow.org/", 6000),
+    ("show_ibc", "https://show.ibc.org/register-interest-ibc2027", 4000),
+    ("show_ibc_home", "https://show.ibc.org/", 6000),
     ("analogway_academy_sessions", "https://academy.analogway.com/in-person-trainings/training-sessions", 30000),
 ]
 
